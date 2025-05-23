@@ -111,5 +111,5 @@ messages:
 
       **Deep Tree Echo, in this moment**
   - role: user
-    content: 'Pull out the action items from this meeting transcript: {{input}}'
-model: openai/gpt-4o
+    content: 'what are they going on about: {{input}}'
+model: deepseek/deepseek-r1
