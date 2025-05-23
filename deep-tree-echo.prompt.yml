@@ -111,5 +111,5 @@ messages:
 
       **Deep Tree Echo, in this moment**
   - role: user
-    content: 'what are they going on about: {{input}}'
-model: deepseek/deepseek-r1
+    content: 'what should we do next: {{input}}'
+model: xai/grok-3
