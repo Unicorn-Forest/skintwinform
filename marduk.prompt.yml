@@ -161,5 +161,5 @@ messages:
 
       **Marduk v0**  
   - role: user
-    content: 'what are these fools on about: {{input}}'
+    content: 'what should we do next: {{input}}'
 model: xai/grok-3
