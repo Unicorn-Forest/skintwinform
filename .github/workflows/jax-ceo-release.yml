@@ -66,6 +66,31 @@ jobs:
       # Configure JAX CEO integration
       - name: Configure JAX CEO integration
         run: |
+          # Create .env.local file with placeholders
+          echo "# Local environment configuration for single-user JAX CEO mode" > .env.local
+          echo "# This file replaces cloud deployment settings with local-only configuration" >> .env.local
+          echo "" >> .env.local
+          echo "# Model API keys - REPLACE THESE WITH YOUR ACTUAL KEYS" >> .env.local
+          echo "GROQ_API_KEY=YOUR_GROQ_API_KEY_HERE" >> .env.local
+          echo "OPENAI_API_KEY=YOUR_OPENAI_API_KEY_HERE" >> .env.local
+          echo "ANTHROPIC_API_KEY=YOUR_ANTHROPIC_API_KEY_HERE" >> .env.local
+          echo "GOOGLE_GENERATIVE_AI_API_KEY=YOUR_GOOGLE_AI_API_KEY_HERE" >> .env.local
+          echo "" >> .env.local
+          echo "# You only need this environment variable set if you want to use oLLAMA models" >> .env.local
+          echo "OLLAMA_API_BASE_URL=http://127.0.0.1:11434" >> .env.local
+          echo "" >> .env.local
+          echo "# Include this environment variable for more logging when debugging locally" >> .env.local
+          echo "VITE_LOG_LEVEL=info" >> .env.local
+          echo "" >> .env.local
+          echo "# Single user mode flag - disables multi-user features" >> .env.local
+          echo "VITE_SINGLE_USER_MODE=true" >> .env.local
+          echo "" >> .env.local
+          echo "# Disable Cloudflare deployment features" >> .env.local
+          echo "VITE_DISABLE_CLOUDFLARE=true" >> .env.local
+          echo "" >> .env.local
+          echo "# Local preview as production" >> .env.local
+          echo "VITE_USE_LOCAL_PREVIEW=true" >> .env.local
+          
           # Copy the .env.local file to .env for the build
           cp .env.local .env
           # Ensure single-user mode is enabled
@@ -104,7 +129,7 @@ jobs:
           # Only branch pushes remain drafts. For workflow_dispatch and tag pushes the release is published.
           draft: ${{ github.event_name != 'workflow_dispatch' && github.ref_type == 'branch' }}
           # For tag pushes, name the release as "JAX CEO Release <tagname>", otherwise "JAX CEO Release".
-          name: ${{ (github.event_name == 'push' && github.ref_type == 'tag') && format('JAX CEO Release {0}', github.ref_name) || 'JAX CEO Release' }}
+          name: ${{ (github.event_name == 'push' && github.ref_type == 'tag' ) && format('JAX CEO Release {0}', github.ref_name) || 'JAX CEO Release' }}
           body: |
             # JAX CEO Single-User Release
             
