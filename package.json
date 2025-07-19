@@ -1,14 +1,14 @@
 {
-  "name": "bolt",
-  "description": "An AI Agent",
+  "name": "skin.twin",
+  "description": "An AI Skincare Formulation Assistant",
   "private": true,
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
   "version": "1.0.0",
   "author": {
-    "name": "bolt.diy team",
-    "email": "maintainers@bolt.diy"
+    "name": "skin.twin team",
+    "email": "maintainers@skin.twin"
   },
   "scripts": {
     "deploy": "npm run build && wrangler pages deploy",
