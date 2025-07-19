@@ -1,34 +1,34 @@
-# ⚡ Bolt
+# 🧪 SkinTwin
 
 <div align="center">
-  <img src="./public/logo-light.png" alt="Bolt Logo" width="200" />
+  <img src="./public/logo-light.png" alt="SkinTwin Logo" width="200" />
   
-  **An AI-powered coding assistant that runs in your browser**
+  **An AI-powered skincare formulation assistant that runs in your browser**
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Node.js](https://img.shields.io/badge/Node.js-18.18.0+-green.svg)](https://nodejs.org/)
   [![Remix](https://img.shields.io/badge/Remix-2.x-blue.svg)](https://remix.run/)
 </div>
 
-## 🌟 What is Bolt?
+## 🌟 What is SkinTwin?
 
-Bolt is an advanced AI coding assistant that combines the power of multiple AI providers with an in-browser development environment. Built by StackBlitz, Bolt enables you to chat with AI, generate code, run applications, and deploy projects—all within your browser.
+SkinTwin is an advanced AI skincare formulation assistant that combines the power of multiple AI providers with an in-browser development environment for cosmetic chemistry. Built on innovative AI technology, SkinTwin enables you to chat with AI, generate formulation code, create product designs, and develop skincare formulations—all within your browser.
 
 ### ✨ Key Features
 
 - 🤖 **Multi-AI Provider Support**: Works with OpenAI, Anthropic, Google, Ollama, and many more
 - 🌐 **In-Browser Runtime**: Powered by WebContainer for full Node.js environment in the browser
-- 📝 **Intelligent Code Generation**: Create, edit, and refactor code with AI assistance
+- 🧪 **Intelligent Formulation Generation**: Create, edit, and refactor skincare formulations with AI assistance
 - 🖥️ **Integrated Terminal**: Full shell access with zsh emulation
-- 📁 **File System Management**: Create, edit, and organize project files
-- 👀 **Live Preview**: See your applications running in real-time
+- 📁 **Ingredient & Product Management**: Create, edit, and organize formulation files in vessels structure
+- 👀 **Live Preview**: See your formulations and products in real-time
 - 🔄 **Git Integration**: Version control and repository management
-- 🚀 **Multiple Deployment Options**: Deploy to Netlify, Vercel, and other platforms
-- 💻 **Cross-Platform**: Available as web app and Electron desktop application
+- 🚀 **Multiple Export Options**: Export formulations to various industry formats
+- 💻 **Cross-Platform**: Available as web app and desktop application
 - 🐳 **Docker Ready**: Containerized deployment support
-- 🧪 **SkinTwin Formulation Vessel**: Specialized AI assistant for skincare product formulation with chemical reaction simulation
+- 🧪 **SKIN-TWIN Formulation Vessel**: Specialized AI assistant for skincare product formulation with chemical reaction simulation
 
-### 🧪 SkinTwin Virtual Turbo Reactor Formulation Vessel
+### 🧪 SKIN-TWIN Virtual Turbo Reactor Formulation Vessel
 
 A specialized prompt that transforms the AI assistant into a virtual chemical reaction vessel for skincare formulation:
 
@@ -38,7 +38,7 @@ A specialized prompt that transforms the AI assistant into a virtual chemical re
 - **Step-by-Step Mixing**: Detailed formulation instructions with chemical equations
 - **Product Development**: Suggests creative product names and functional benefits
 
-To use: Select "SkinTwin Formulation Vessel" from the prompt dropdown in settings, then try examples like "Create a vitamin C brightening serum" or "Formulate an anti-aging night cream with retinol".
+To use: Select "SKIN-TWIN Formulation Vessel" from the prompt dropdown in settings, then try examples like "Create a vitamin C brightening serum" or "Formulate an anti-aging night cream with retinol".
 
 ## 🚀 Quick Start
 
@@ -51,8 +51,8 @@ To use: Select "SkinTwin Formulation Vessel" from the prompt dropdown in setting
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/EchoCog/bolt.ceo.git
-   cd bolt.ceo
+   git clone https://github.com/EchoCog/skin.twin.git
+   cd skin.twin
    ```
 
 2. **Install dependencies**
@@ -73,7 +73,7 @@ To use: Select "SkinTwin Formulation Vessel" from the prompt dropdown in setting
    ```
 
 5. **Open your browser**
-   Navigate to `http://localhost:5173` to start using Bolt!
+   Navigate to `http://localhost:5173` to start using SkinTwin!
 
 ## 🔧 Environment Setup
 
@@ -151,12 +151,13 @@ AWS_BEDROCK_CONFIG={"region": "us-east-1", "accessKeyId": "your_key", "secretAcc
 ### Project Structure
 
 ```
-bolt.ceo/
+skin.twin/
 ├── app/                    # Remix application code
 │   ├── components/         # React components
 │   ├── lib/               # Core libraries and utilities
 │   ├── routes/            # Remix routes
 │   └── styles/            # Styling files
+├── vessels/               # Skincare formulation vessels and ingredients
 ├── electron/              # Electron app configuration
 ├── public/                # Static assets
 ├── docs/                  # Documentation
@@ -184,7 +185,7 @@ pnpm dockerrun
 ### Production
 ```bash
 pnpm dockerbuild:prod
-docker run -p 5173:5173 --env-file .env.local bolt-ai:production
+docker run -p 5173:5173 --env-file .env.local skin-twin:production
 ```
 
 ## 📱 Electron Desktop App
@@ -257,7 +258,7 @@ For more detailed documentation, visit the [docs](./docs/) directory. Additional
 
 If you encounter any issues or have questions:
 
-1. Check the [existing issues](https://github.com/EchoCog/bolt.ceo/issues)
+1. Check the [existing issues](https://github.com/EchoCog/skin.twin/issues)
 2. Create a new issue with detailed information
 3. Include steps to reproduce any bugs
 
@@ -267,17 +268,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built with ❤️ by the [StackBlitz](https://stackblitz.com/) team
+- Built with ❤️ by the SkinTwin team
 - Powered by [WebContainer](https://webcontainer.dev/) technology
-- Community contributions from [bolt.diy](https://bolt.diy/)
+- Community contributions from skincare formulation experts
 
 ---
 
 <div align="center">
-  <p>Made with ⚡ by the Bolt team</p>
+  <p>Made with 🧪 by the SkinTwin team</p>
   <p>
-    <a href="https://bolt.ceo">Website</a> •
-    <a href="https://github.com/EchoCog/bolt.ceo/issues">Issues</a> •
-    <a href="https://github.com/EchoCog/bolt.ceo/discussions">Discussions</a>
+    <a href="https://skin.twin">Website</a> •
+    <a href="https://github.com/EchoCog/skin.twin/issues">Issues</a> •
+    <a href="https://github.com/EchoCog/skin.twin/discussions">Discussions</a>
   </p>
 </div>

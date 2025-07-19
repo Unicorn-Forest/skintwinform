@@ -3,7 +3,7 @@ import { useStore } from '@nanostores/react';
 import { promptStore } from '~/lib/stores/settings';
 
 const EXAMPLE_PROMPTS = [
-  { text: 'Create a mobile app about bolt.diy' },
+  { text: 'Create a vitamin C brightening serum formulation' },
   { text: 'Build a todo app in React using Tailwind' },
   { text: 'Build a simple blog using Astro' },
   { text: 'Create a cookie consent form using Material UI' },
@@ -22,7 +22,7 @@ const FORMULATION_EXAMPLE_PROMPTS = [
 
 export function ExamplePrompts(sendMessage?: { (event: React.UIEvent, messageInput?: string): void | undefined }) {
   const currentPrompt = useStore(promptStore);
-  
+
   // Select the appropriate example prompts based on the current prompt
   const examplePrompts = currentPrompt === 'formulationVessel' ? FORMULATION_EXAMPLE_PROMPTS : EXAMPLE_PROMPTS;
 

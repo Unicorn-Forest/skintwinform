@@ -42,8 +42,9 @@ export class PromptLibrary {
       get: (options) => optimized(options),
     },
     formulationVessel: {
-      label: 'SkinTwin Formulation Vessel',
-      description: 'Virtual Turbo Reactor for creating safe skincare product formulations with chemical reaction simulation',
+      label: 'SKIN-TWIN Formulation Vessel',
+      description:
+        'Virtual Turbo Reactor for creating safe skincare product formulations with chemical reaction simulation',
       get: (options) => getFormulationVesselPrompt(options.cwd, options.supabase),
     },
   };

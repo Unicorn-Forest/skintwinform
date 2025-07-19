@@ -1,6 +1,6 @@
 /**
- * Single-user configuration for JAX CEO mode
- * This file contains settings and utilities for running bolt.diy in single-user mode
+ * Single-user configuration for SKIN-TWIN mode
+ * This file contains settings and utilities for running skin.twin in single-user mode
  */
 
 // Environment variables for single-user mode
@@ -19,17 +19,17 @@ export const singleUserConfig = {
   enableAuthentication: false,
   enableUserManagement: false,
   enableCloudSync: false,
-  
+
   // Local environment settings
   defaultLocalPort: 3000,
-  
+
   // UI customization for single-user mode
   hideMultiUserUI: true,
   hideCloudDeploymentOptions: true,
-  
-  // JAX CEO specific settings
-  assistantName: 'JAX CEO',
-  assistantDescription: 'Cognitive Execution Orchestration',
+
+  // SKIN-TWIN specific settings
+  assistantName: 'SKIN-TWIN',
+  assistantDescription: 'Virtual Turbo Reactor Formulation Vessel',
 };
 
 export default singleUserConfig;

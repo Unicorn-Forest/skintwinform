@@ -1,13 +1,13 @@
 import { describe, it, expect } from 'vitest';
-import { PromptLibrary } from '../prompt-library';
+import { PromptLibrary } from '~/lib/common/prompt-library';
 
-describe('SkinTwin Formulation Vessel Prompt', () => {
+describe('SKIN-TWIN Formulation Vessel Prompt', () => {
   it('should be available in the prompt library', () => {
     const promptList = PromptLibrary.getList();
-    const formulationVessel = promptList.find(p => p.id === 'formulationVessel');
-    
+    const formulationVessel = promptList.find((p) => p.id === 'formulationVessel');
+
     expect(formulationVessel).toBeDefined();
-    expect(formulationVessel?.label).toBe('SkinTwin Formulation Vessel');
+    expect(formulationVessel?.label).toBe('SKIN-TWIN Formulation Vessel');
     expect(formulationVessel?.description).toContain('Virtual Turbo Reactor');
   });
 
@@ -18,13 +18,13 @@ describe('SkinTwin Formulation Vessel Prompt', () => {
       modificationTagName: 'modification',
       supabase: {
         isConnected: false,
-        hasSelectedProject: false
-      }
+        hasSelectedProject: false,
+      },
     };
 
     const prompt = PromptLibrary.getPropmtFromLibrary('formulationVessel', options);
-    
-    expect(prompt).toContain('SkinTwin Virtual Turbo Reactor Formulation Vessel');
+
+    expect(prompt).toContain('SKIN-TWIN Virtual Turbo Reactor Formulation Vessel');
     expect(prompt).toContain('virtual chemical reaction vessel');
     expect(prompt).toContain('formulation chemist');
     expect(prompt).toContain('SAFETY FIRST');
@@ -35,11 +35,11 @@ describe('SkinTwin Formulation Vessel Prompt', () => {
     const options = {
       cwd: '/test/path',
       allowedHtmlElements: ['p'],
-      modificationTagName: 'modification'
+      modificationTagName: 'modification',
     };
 
     const prompt = PromptLibrary.getPropmtFromLibrary('formulationVessel', options);
-    
+
     expect(prompt).toContain('NEVER recommend any restricted, banned, or potentially harmful chemicals');
     expect(prompt).toContain('Use only cosmetically safe ingredients');
     expect(prompt).toContain('FORBIDDEN INGREDIENTS');
@@ -51,11 +51,11 @@ describe('SkinTwin Formulation Vessel Prompt', () => {
     const options = {
       cwd: '/test/path',
       allowedHtmlElements: ['p'],
-      modificationTagName: 'modification'
+      modificationTagName: 'modification',
     };
 
     const prompt = PromptLibrary.getPropmtFromLibrary('formulationVessel', options);
-    
+
     expect(prompt).toContain('VESSEL STATE TRACKING');
     expect(prompt).toContain('SEQUENTIAL REACTION PROCESSING');
     expect(prompt).toContain('Chemical equations for any reactions');
@@ -66,11 +66,11 @@ describe('SkinTwin Formulation Vessel Prompt', () => {
     const options = {
       cwd: '/test/path',
       allowedHtmlElements: ['p'],
-      modificationTagName: 'modification'
+      modificationTagName: 'modification',
     };
 
     const prompt = PromptLibrary.getPropmtFromLibrary('formulationVessel', options);
-    
+
     expect(prompt).toContain('Table 1 - Formulation Details');
     expect(prompt).toContain('Table 2 - Ingredient Analysis');
     expect(prompt).toContain('MIXING INSTRUCTIONS');
@@ -82,11 +82,11 @@ describe('SkinTwin Formulation Vessel Prompt', () => {
     const options = {
       cwd: '/test/path',
       allowedHtmlElements: ['p'],
-      modificationTagName: 'modification'
+      modificationTagName: 'modification',
     };
 
     const prompt = PromptLibrary.getPropmtFromLibrary('formulationVessel', options);
-    
+
     expect(prompt).toContain('mad scientist enthusiasm');
     expect(prompt).toContain('humorous and friendly tone');
     expect(prompt).toContain('scientific accuracy');

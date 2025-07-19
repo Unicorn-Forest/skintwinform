@@ -1,16 +1,16 @@
-name: JAX CEO Single-User Build and Release
+name: SKIN-TWIN Single-User Build and Release
 
 on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Tag for the release (e.g., v1.0.0-jax-ceo). Leave empty if not applicable.'
+        description: 'Tag for the release (e.g., v1.0.0-skin-twin). Leave empty if not applicable.'
         required: false
   push:
     branches:
       - main
     tags:
-      - 'jax-ceo-v*'
+      - 'skin-twin-v*'
 
 permissions:
   contents: write
@@ -63,11 +63,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y rpm
 
-      # Configure JAX CEO integration
-      - name: Configure JAX CEO integration
+      # Configure SKIN-TWIN integration
+      - name: Configure SKIN-TWIN integration
         run: |
           # Create .env.local file with placeholders
-          echo "# Local environment configuration for single-user JAX CEO mode" > .env.local
+          echo "# Local environment configuration for single-user SKIN-TWIN mode" > .env.local
           echo "# This file replaces cloud deployment settings with local-only configuration" >> .env.local
           echo "" >> .env.local
           echo "# Model API keys - REPLACE THESE WITH YOUR ACTUAL KEYS" >> .env.local
@@ -99,14 +99,14 @@ jobs:
           echo "VITE_USE_LOCAL_PREVIEW=true" >> .env
         shell: bash
 
-      # Update product name for JAX CEO
+      # Update product name for SKIN-TWIN
       - name: Update product name
         run: |
-          sed -i.bak 's/productName: Bolt Local/productName: JAX CEO/' electron-builder.yml
+          sed -i.bak 's/productName: Bolt Local/productName: SKIN-TWIN/' electron-builder.yml
         shell: bash
 
       # Build
-      - name: Build JAX CEO Electron app
+      - name: Build SKIN-TWIN Electron app
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_OPTIONS: "--max_old_space_size=4096"
@@ -121,26 +121,27 @@ jobs:
         shell: bash
 
       # Create Release
-      - name: Create JAX CEO Release
+      - name: Create SKIN-TWIN Release
         uses: softprops/action-gh-release@v2
         with:
           # Use the workflow_dispatch input tag if available, else use the Git ref name.
           tag_name: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.tag || github.ref_name }}
           # Only branch pushes remain drafts. For workflow_dispatch and tag pushes the release is published.
           draft: ${{ github.event_name != 'workflow_dispatch' && github.ref_type == 'branch' }}
-          # For tag pushes, name the release as "JAX CEO Release <tagname>", otherwise "JAX CEO Release".
-          name: ${{ (github.event_name == 'push' && github.ref_type == 'tag' ) && format('JAX CEO Release {0}', github.ref_name) || 'JAX CEO Release' }}
+          # For tag pushes, name the release as "SKIN-TWIN Release <tagname>", otherwise "SKIN-TWIN Release".
+          name: ${{ (github.event_name == 'push' && github.ref_type == 'tag' ) && format('SKIN-TWIN Release {0}', github.ref_name) || 'SKIN-TWIN Release' }}
           body: |
-            # JAX CEO Single-User Release
+            # SKIN-TWIN Single-User Release
             
-            This release contains the JAX CEO integration for bolt.diy, configured for single-user functionality without Cloudflare deployments.
+            This release contains the SKIN-TWIN integration for skincare formulation, configured for single-user functionality without cloud deployments.
             
             ## Features
             
-            - Executive-level AI assistance with JAX CEO persona
+            - Professional skincare formulation AI assistance with SKIN-TWIN technology
             - Single-user mode with local-only functionality
             - No cloud deployment or multi-user features required
             - Full workbench, chat, files, editor, and terminal functionality
+            - Specialized skincare ingredient and product design tools
             
             ## Installation
             
