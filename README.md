@@ -26,6 +26,19 @@ Bolt is an advanced AI coding assistant that combines the power of multiple AI p
 - 🚀 **Multiple Deployment Options**: Deploy to Netlify, Vercel, and other platforms
 - 💻 **Cross-Platform**: Available as web app and Electron desktop application
 - 🐳 **Docker Ready**: Containerized deployment support
+- 🧪 **SkinTwin Formulation Vessel**: Specialized AI assistant for skincare product formulation with chemical reaction simulation
+
+### 🧪 SkinTwin Virtual Turbo Reactor Formulation Vessel
+
+A specialized prompt that transforms the AI assistant into a virtual chemical reaction vessel for skincare formulation:
+
+- **Virtual Chemistry**: Simulates real chemical reactions as ingredients are added
+- **Safety First**: Only recommends cosmetically safe ingredients, avoids restricted chemicals
+- **Professional Output**: Industry-standard ingredient tables with INCI names and ZAR pricing
+- **Step-by-Step Mixing**: Detailed formulation instructions with chemical equations
+- **Product Development**: Suggests creative product names and functional benefits
+
+To use: Select "SkinTwin Formulation Vessel" from the prompt dropdown in settings, then try examples like "Create a vitamin C brightening serum" or "Formulate an anti-aging night cream with retinol".
 
 ## 🚀 Quick Start
 
