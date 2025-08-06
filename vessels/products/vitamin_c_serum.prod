@@ -1,0 +1,41 @@
+// Vitamin C Brightening Serum Formulation
+// Product Design: Anti-aging and brightening serum
+{
+  "product_name": "Lumina-C Brightening Serum",
+  "category": "Treatment Serum",
+  "target_skin_type": "All skin types, especially dull/uneven",
+  "formulation": {
+    "phase_a_water": {
+      "distilled_water": "65.5%",
+      "hyaluronic_acid": "1.0%",
+      "glycerin": "5.0%"
+    },
+    "phase_b_active": {
+      "magnesium_ascorbyl_phosphate": "10.0%",
+      "niacinamide": "3.0%"
+    },
+    "phase_c_preservation": {
+      "phenoxyethanol": "0.8%",
+      "ethylhexylglycerin": "0.2%"
+    },
+    "phase_d_adjustment": {
+      "sodium_hydroxide": "q.s. pH 6.0",
+      "distilled_water": "q.s. 100%"
+    }
+  },
+  "instructions": [
+    "Heat Phase A to 70°C",
+    "Dissolve actives in Phase B at room temperature", 
+    "Combine phases at 40°C",
+    "Add preservation phase at 35°C",
+    "Adjust pH to 6.0 with Phase D"
+  ],
+  "benefits": [
+    "Brightens skin tone",
+    "Reduces hyperpigmentation", 
+    "Provides antioxidant protection",
+    "Hydrates and plumps skin"
+  ],
+  "shelf_life": "24 months",
+  "testing_required": ["Stability", "Microbial", "Patch test"]
+}

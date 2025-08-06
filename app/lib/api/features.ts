@@ -6,30 +6,54 @@ export interface Feature {
   releaseDate: string;
 }
 
+const FEATURE_FLAGS_URL = '/feature-flags.json';
+const VIEWED_FEATURES_KEY = 'bolt_viewed_features';
+
+export const getViewedFeatureIds = (): string[] => {
+  try {
+    const stored = localStorage.getItem(VIEWED_FEATURES_KEY);
+    return stored ? JSON.parse(stored) : [];
+  } catch {
+    return [];
+  }
+};
+
+export const setViewedFeatureIds = (featureIds: string[]): void => {
+  try {
+    localStorage.setItem(VIEWED_FEATURES_KEY, JSON.stringify(featureIds));
+  } catch (error) {
+    console.error('Failed to persist viewed features:', error);
+  }
+};
+
+interface FeatureData {
+  id: string;
+  name: string;
+  description: string;
+  releaseDate: string;
+}
+
 export const getFeatureFlags = async (): Promise<Feature[]> => {
-  /*
-   * TODO: Implement actual feature flags logic
-   * This is a mock implementation
-   */
-  return [
-    {
-      id: 'feature-1',
-      name: 'Dark Mode',
-      description: 'Enable dark mode for better night viewing',
-      viewed: true,
-      releaseDate: '2024-03-15',
-    },
-    {
-      id: 'feature-2',
-      name: 'Tab Management',
-      description: 'Customize your tab layout',
-      viewed: false,
-      releaseDate: '2024-03-20',
-    },
-  ];
+  const response = await fetch(FEATURE_FLAGS_URL);
+
+  if (!response.ok) {
+    throw new Error('Failed to fetch feature flags');
+  }
+
+  const features: FeatureData[] = await response.json();
+  const viewed = new Set(getViewedFeatureIds());
+
+  return features.map((feature) => ({
+    ...feature,
+    viewed: viewed.has(feature.id),
+  }));
 };
 
 export const markFeatureViewed = async (featureId: string): Promise<void> => {
-  /* TODO: Implement actual feature viewed logic */
-  console.log(`Marking feature ${featureId} as viewed`);
+  const viewed = new Set(getViewedFeatureIds());
+
+  if (!viewed.has(featureId)) {
+    viewed.add(featureId);
+    setViewedFeatureIds([...viewed]);
+  }
 };
