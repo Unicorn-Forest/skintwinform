@@ -1,6 +1,7 @@
 import { getSystemPrompt } from './prompts/prompts';
 import optimized from './prompts/optimized';
 import { getFineTunedPrompt } from './prompts/new-prompt';
+import { getFormulationVesselPrompt } from './prompts/formulation-vessel';
 
 export interface PromptOptions {
   cwd: string;
@@ -39,6 +40,12 @@ export class PromptLibrary {
       label: 'Optimized Prompt (experimental)',
       description: 'an Experimental version of the prompt for lower token usage',
       get: (options) => optimized(options),
+    },
+    formulationVessel: {
+      label: 'SKIN-TWIN Formulation Vessel',
+      description:
+        'Virtual Turbo Reactor for creating safe skincare product formulations with chemical reaction simulation',
+      get: (options) => getFormulationVesselPrompt(options.cwd, options.supabase),
     },
   };
   static getList() {

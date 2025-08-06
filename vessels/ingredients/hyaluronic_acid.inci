@@ -1,0 +1,21 @@
+// Hyaluronic Acid - High Molecular Weight
+// INCI: Hyaluronic Acid
+{
+  "inci_name": "Hyaluronic Acid",
+  "common_name": "Hyaluronic Acid (High MW)",
+  "molecular_weight": "1000-1800 kDa",
+  "concentration_range": "0.1-2.0%",
+  "ph_range": "4.0-7.0",
+  "solubility": "Water soluble",
+  "function": [
+    "Humectant",
+    "Moisture retention", 
+    "Film forming"
+  ],
+  "compatibility": {
+    "avoid": ["Strong acids", "High pH solutions"],
+    "synergistic": ["Ceramides", "Peptides", "Niacinamide"]
+  },
+  "safety_rating": "GRAS",
+  "pricing_zar": "850.00/100g"
+}
