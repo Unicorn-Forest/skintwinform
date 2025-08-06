@@ -1,29 +1,16 @@
 import { useState, useEffect } from 'react';
-import { getFeatureFlags, markFeatureViewed, type Feature } from '~/lib/api/features';
-
-const VIEWED_FEATURES_KEY = 'bolt_viewed_features';
-
-const getViewedFeatures = (): string[] => {
-  try {
-    const stored = localStorage.getItem(VIEWED_FEATURES_KEY);
-    return stored ? JSON.parse(stored) : [];
-  } catch {
-    return [];
-  }
-};
-
-const setViewedFeatures = (featureIds: string[]) => {
-  try {
-    localStorage.setItem(VIEWED_FEATURES_KEY, JSON.stringify(featureIds));
-  } catch (error) {
-    console.error('Failed to persist viewed features:', error);
-  }
-};
+import {
+  getFeatureFlags,
+  markFeatureViewed,
+  type Feature,
+  getViewedFeatureIds,
+  setViewedFeatureIds as persistViewedFeatureIds,
+} from '~/lib/api/features';
 
 export const useFeatures = () => {
   const [hasNewFeatures, setHasNewFeatures] = useState(false);
   const [unviewedFeatures, setUnviewedFeatures] = useState<Feature[]>([]);
-  const [viewedFeatureIds, setViewedFeatureIds] = useState<string[]>(() => getViewedFeatures());
+  const [viewedFeatureIds, setViewedFeatureIds] = useState<string[]>(() => getViewedFeatureIds());
 
   useEffect(() => {
     const checkNewFeatures = async () => {
@@ -46,7 +33,7 @@ export const useFeatures = () => {
 
       const newViewedIds = [...viewedFeatureIds, featureId];
       setViewedFeatureIds(newViewedIds);
-      setViewedFeatures(newViewedIds);
+      persistViewedFeatureIds(newViewedIds);
       setUnviewedFeatures((prev) => prev.filter((feature) => feature.id !== featureId));
       setHasNewFeatures(unviewedFeatures.length > 1);
     } catch (error) {
@@ -60,7 +47,7 @@ export const useFeatures = () => {
 
       const newViewedIds = [...viewedFeatureIds, ...unviewedFeatures.map((f) => f.id)];
       setViewedFeatureIds(newViewedIds);
-      setViewedFeatures(newViewedIds);
+      persistViewedFeatureIds(newViewedIds);
       setUnviewedFeatures([]);
       setHasNewFeatures(false);
     } catch (error) {
