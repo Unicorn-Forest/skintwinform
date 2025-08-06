@@ -1,6 +1,6 @@
 /**
- * Single-user configuration for SKIN-TWIN mode
- * This file contains settings and utilities for running skin.twin in single-user mode
+ * Single-user configuration for Skin Twin mode
+ * This file contains settings and utilities for running bolt.diy in single-user mode
  */
 
 // Environment variables for single-user mode
@@ -27,9 +27,15 @@ export const singleUserConfig = {
   hideMultiUserUI: true,
   hideCloudDeploymentOptions: true,
 
+//<<<<<<< codex/update-configuration-files
+  // Skin Twin specific settings
+//  assistantName: 'Skin Twin',
+//  assistantDescription: 'Personal AI Skincare Assistant',
+//=======
   // SKIN-TWIN specific settings
   assistantName: 'SKIN-TWIN',
   assistantDescription: 'Virtual Turbo Reactor Formulation Vessel',
+//>>>>>>> main
 };
 
 export default singleUserConfig;
