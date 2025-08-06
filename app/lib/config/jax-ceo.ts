@@ -24,7 +24,7 @@ export const jaxCeoUICustomization = {
 };
 
 // Helper function to check if JAX CEO mode is enabled
-export const isJaxCeoMode = () => true; // Always enabled in this simplified version
+export const isJaxCeoMode = (): boolean => true; // Always enabled in this simplified version
 
 // Helper function to get JAX CEO configuration
 export const getJaxCeoConfig = () => {

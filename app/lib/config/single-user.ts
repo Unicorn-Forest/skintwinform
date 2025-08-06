@@ -4,9 +4,9 @@
  */
 
 // Environment variables for single-user mode
-export const SINGLE_USER_MODE = import.meta.env.VITE_SINGLE_USER_MODE === 'true';
-export const DISABLE_CLOUDFLARE = import.meta.env.VITE_DISABLE_CLOUDFLARE === 'true';
-export const USE_LOCAL_PREVIEW = import.meta.env.VITE_USE_LOCAL_PREVIEW === 'true';
+export const SINGLE_USER_MODE: boolean = import.meta.env.VITE_SINGLE_USER_MODE === 'true';
+export const DISABLE_CLOUDFLARE: boolean = import.meta.env.VITE_DISABLE_CLOUDFLARE === 'true';
+export const USE_LOCAL_PREVIEW: boolean = import.meta.env.VITE_USE_LOCAL_PREVIEW === 'true';
 
 // Helper functions for single-user mode
 export const isSingleUserMode = () => SINGLE_USER_MODE;
