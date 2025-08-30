@@ -27,15 +27,18 @@ export const singleUserConfig = {
   hideMultiUserUI: true,
   hideCloudDeploymentOptions: true,
 
-//<<<<<<< codex/update-configuration-files
-  // Skin Twin specific settings
-//  assistantName: 'Skin Twin',
-//  assistantDescription: 'Personal AI Skincare Assistant',
-//=======
-  // SKIN-TWIN specific settings
+  /*
+   * <<<<<<< codex/update-configuration-files
+   *  Skin Twin specific settings
+   *   assistantName: 'Skin Twin',
+   *   assistantDescription: 'Personal AI Skincare Assistant',
+   * =======
+   *  SKIN-TWIN specific settings
+   */
   assistantName: 'SKIN-TWIN',
   assistantDescription: 'Virtual Turbo Reactor Formulation Vessel',
-//>>>>>>> main
+
+  //>>>>>>> main
 };
 
 export default singleUserConfig;
