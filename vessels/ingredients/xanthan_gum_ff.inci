@@ -1,0 +1,135 @@
+// Xanthan Gum - Premium Stabilizer and Thickener
+// Ingredient ID: R0102031  
+// INCI: Xanthomonas Campestris (Xanthan Gum)
+{
+  "id": "R0102031",
+  "label": "Xanthan Gum FF Food Grade",
+  "inci_name": "Xanthomonas Campestris",
+  "category": "Stabilizer",
+  
+  "chemical_properties": {
+    "molecular_weight": "200,000-2,000,000 Da",
+    "concentration_range": {
+      "min": 0.1,
+      "max": 2.0,
+      "typical": 0.3
+    },
+    "ph_range": {
+      "min": 3.0,
+      "max": 12.0,
+      "optimal": 6.0
+    },
+    "solubility": "Water soluble (forms colloidal solution)"
+  },
+  
+  "functional_properties": {
+    "functions": [
+      "Thickener",
+      "Stabilizer", 
+      "Suspension agent",
+      "Texture enhancer",
+      "Flow modifier",
+      "Film former"
+    ],
+    "rheology_modification": {
+      "viscosity_type": "Pseudoplastic (shear-thinning)",
+      "yield_stress": "Provides suspension properties",
+      "temperature_stability": "Excellent across formulation range"
+    },
+    "compatibility": {
+      "synergistic": [
+        "Glycerine",
+        "Hyaluronic acid",
+        "Carbomer",
+        "Emulsifiers",
+        "Water-based actives"
+      ],
+      "avoid": [
+        "High salt concentrations >2%",
+        "Strong cationic polymers",
+        "Extreme pH <3 or >12"
+      ],
+      "neutral": [
+        "Most oil-soluble ingredients",
+        "Silicones",
+        "Most preservatives"
+      ]
+    }
+  },
+  
+  "safety_regulatory": {
+    "safety_rating": "GRAS",
+    "restrictions": [],
+    "allergen_info": "Generally non-allergenic, rare sensitivity",
+    "regulatory_status": "FDA approved, EU cosmetics regulation compliant",
+    "food_grade": true
+  },
+  
+  "commercial_information": {
+    "pricing_zar": 1250.00,  // Per 100g - premium biopolymer
+    "supplier_ids": ["MEG0001", "CRO0001", "NAT0001"],
+    "packaging_options": ["25kg bags", "5kg containers", "1kg bottles"],
+    "shelf_life_months": 36,
+    "storage_requirements": "Dry, cool conditions, moisture protection"
+  },
+  
+  "usage_statistics": {
+    "usage_frequency": 23,     // Used in 23 products (41% of portfolio)
+    "criticality_score": 85,   // High importance for texture/stability
+    "average_concentration": 0.28,
+    "primary_applications": [
+      "Serums (texture enhancement)",
+      "Gels (structure formation)", 
+      "Emulsions (stabilization)",
+      "Suspensions (particle suspension)"
+    ]
+  },
+  
+  "technical_specifications": {
+    "mesh_size": "200 mesh (fine powder)",
+    "moisture_content": "<13%",
+    "ash_content": "<16%",
+    "protein_content": "<6%",
+    "viscosity_1%_solution": "1200-1600 cP (Brookfield, 25°C)",
+    "particle_size": "80-120 mesh"
+  },
+  
+  "formulation_guidelines": {
+    "addition_phase": "Phase A - Water phase (early addition)",
+    "hydration_method": {
+      "preferred": "Vortex method - slow addition to vortex",
+      "alternative": "Pre-dispersion in glycerine",
+      "avoid": "Direct addition to static water (lumping)"
+    },
+    "temperature_range": "Room temperature hydration preferred",
+    "mixing_time": "20-30 minutes full hydration",
+    "concentration_effects": {
+      "0.1-0.3%": "Light thickening, improved flow",
+      "0.3-0.8%": "Moderate viscosity, suspension capability", 
+      "0.8-2.0%": "High viscosity, gel formation"
+    },
+    "quality_control": [
+      "Viscosity measurement",
+      "Lump-free dispersion check",
+      "pH stability testing",
+      "Microbial testing"
+    ]
+  },
+  
+  "network_analysis": {
+    "node_degree": 23,  // Connected to 23 products
+    "betweenness_centrality": 0.34,  // Important connector node
+    "clustering_coefficient": 0.28,  // Forms clusters with stabilizers
+    "eigenvector_centrality": 0.41,  // Moderate-high network influence
+    "community": "Stabilizer/Thickener community"
+  },
+  
+  "performance_characteristics": {
+    "temperature_resistance": "Stable -20°C to 80°C",
+    "freeze_thaw_stability": "Excellent - maintains viscosity",
+    "salt_tolerance": "Reduced efficiency >2% salt",
+    "ph_tolerance": "Stable pH 3-12",
+    "shear_stability": "Excellent - pseudoplastic behavior",
+    "sensory_properties": "Clean feel, non-tacky, excellent spreadability"
+  }
+}

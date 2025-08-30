@@ -1,0 +1,147 @@
+// Natchem CC - Leading Cosmetic Ingredient Supplier
+// Supplier ID: NAT0001
+// Primary Specialization: Diverse Portfolio Supplier
+{
+  "supplier_id": "NAT0001",
+  "label": "Natchem CC",
+  "company_name": "Natchem Cosmetic Chemicals (Pty) Ltd",
+  "company_type": "Close Corporation",
+  
+  "business_information": {
+    "ingredient_portfolio_size": 16,  // Largest supplier in network
+    "market_share": 18.0,  // 18% of total ingredient supply
+    "geographic_focus": ["South Africa", "SADC Region", "Sub-Saharan Africa"],
+    "specializations": [
+      "Active Compounds",
+      "Preservative Systems", 
+      "Emulsification",
+      "Bulk Ingredients"
+    ],
+    "years_in_business": 25,
+    "annual_revenue_range": "R50-100M"
+  },
+  
+  "contact_information": {
+    "headquarters": "Johannesburg, South Africa",
+    "address": "123 Industrial Avenue, Midrand, 1685",
+    "phone": "+27 11 234 5678",
+    "email": "info@natchem.co.za",
+    "website": "www.natchem.co.za",
+    "primary_contact": "Sarah Williams - Technical Sales Manager",
+    "technical_contact": "Dr. Michael Chen - R&D Director"
+  },
+  
+  "ingredient_portfolio": [
+    "R0101114",  // B.P. Glycerine
+    "R0102031",  // Xanthan Gum FF Food Grade  
+    "R0104015",  // Microcare PHG
+    "R0105123",  // DL A Tocopherol
+    "R0101057",  // Kahlwax 8108 Beeswax White
+    "R0102008",  // 1,3 Butylene Glycol
+    "R0104056",  // Verstatil PC
+    "R0105258",  // Lipovol A
+    "R1905011",  // Specialized Active 1
+    "R1905012",  // Specialized Active 2
+    "R1905023",  // Marine Extract Complex
+    "R1905024",  // Peptide Concentrate
+    "R1907035",  // Antioxidant Blend
+    "R1909012",  // Hydration Complex
+    "R1912045",  // Anti-aging Compound
+    "R1915067"   // Brightening Agent
+  ],
+  
+  "commercial_terms": {
+    "payment_terms": "30 days net from invoice date",
+    "minimum_order_value": 5000.00,  // ZAR
+    "lead_time_standard": 14,  // days
+    "volume_discounts": {
+      "tier_1": "5-10kg: 2% discount",
+      "tier_2": "10-50kg: 5% discount", 
+      "tier_3": "50kg+: 8% discount"
+    },
+    "incoterms": "EXW Johannesburg",
+    "currency": "ZAR (South African Rand)"
+  },
+  
+  "quality_certifications": [
+    "ISO 9001:2015 Quality Management",
+    "ISO 22716:2007 Cosmetics GMP",
+    "HACCP Certified",
+    "Halal Certified",
+    "Kosher Certified",
+    "RSPO Certified (Palm derivatives)"
+  ],
+  
+  "quality_grade_standards": [
+    "Cosmetic Grade",
+    "Pharmaceutical Grade", 
+    "Food Grade",
+    "Technical Grade"
+  ],
+  
+  "technical_services": {
+    "formulation_support": true,
+    "regulatory_documentation": "Complete CoA, MSDS, regulatory dossiers",
+    "technical_training": "On-site and virtual training available",
+    "custom_blending": "Available for orders >100kg",
+    "analytical_testing": "In-house laboratory with full testing capabilities",
+    "stability_testing": "Accelerated and real-time stability studies"
+  },
+  
+  "logistics_capabilities": {
+    "warehouse_locations": ["Johannesburg", "Cape Town", "Durban"],
+    "storage_facilities": "Temperature-controlled, humidity-controlled",
+    "packaging_options": [
+      "1kg bottles",
+      "5kg containers", 
+      "25kg drums",
+      "200kg bulk containers"
+    ],
+    "shipping_methods": ["Road transport", "Air freight", "Sea freight"],
+    "tracking_system": "Real-time shipment tracking available"
+  },
+  
+  "relationship_metrics": {
+    "partnership_level": "Strategic Partner",
+    "contract_length": "3-year preferred supplier agreement",
+    "reliability_score": 94,  // Based on on-time delivery and quality consistency
+    "quality_incidents": 2,   // Last 12 months
+    "delivery_performance": "96% on-time delivery",
+    "customer_satisfaction": 4.6  // Out of 5.0
+  },
+  
+  "sustainability_initiatives": {
+    "environmental_certifications": ["ISO 14001 Environmental Management"],
+    "sustainable_sourcing": "70% of ingredients from certified sustainable sources",
+    "carbon_footprint": "Carbon neutral shipping within SA",
+    "waste_reduction": "Zero waste to landfill certification",
+    "renewable_energy": "40% solar power at main facility"
+  },
+  
+  "innovation_capabilities": {
+    "rd_investment": "8% of annual revenue",
+    "new_product_launches": "6-8 new ingredients per year",
+    "patent_portfolio": "12 active patents",
+    "research_partnerships": [
+      "University of Witwatersrand",
+      "CSIR (Council for Scientific and Industrial Research)",
+      "International suppliers for technology transfer"
+    ]
+  },
+  
+  "competitive_advantages": [
+    "Largest local inventory in South Africa",
+    "Strong technical support team",
+    "Competitive pricing due to local production",
+    "Fast delivery within SADC region",
+    "Comprehensive regulatory support",
+    "Custom formulation capabilities"
+  ],
+  
+  "supply_chain_integration": {
+    "upstream_relationships": "Direct relationships with 15 global manufacturers",
+    "downstream_services": "Just-in-time delivery for major customers",
+    "inventory_management": "Customer-specific inventory programs",
+    "forecasting_collaboration": "Quarterly demand planning sessions"
+  }
+}

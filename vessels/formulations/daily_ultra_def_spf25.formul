@@ -1,0 +1,130 @@
+// Daily Ultra Def SPF25 - Multi-Protection Day Treatment  
+// Formulation ID: B19RDS001
+// Category: Sun Protection + Anti-aging
+{
+  "formulation_id": "B19RDS001",
+  "product_name": "Daily Ultra Def SPF25",
+  "category": "Sun Protection",
+  "vessel_type": "Multi_Phase_Defense_Reactor", 
+  "target_skin_type": ["All skin types", "Daily protection"],
+  "complexity_score": 98,
+  
+  "formulation_phases": {
+    "phase_a_water": {
+      "R010000": 49.7,   // De Ion Water
+      "R0101114": 6.0,   // B.P. Glycerine
+      "R0102031": 0.3,   // Xanthan Gum - thickener
+      "temperature": 75,
+      "mixing_time": 25
+    },
+    "phase_b_oil": {
+      "refined_shea_butter": "4.5%",
+      "squalane": "3.2%", 
+      "vitamin_e_acetate": "1.8%",
+      "temperature": 65,
+      "emulsification": true
+    },
+    "phase_c_uv_filter": {
+      "zinc_oxide": "12.0%",
+      "titanium_dioxide": "6.0%",
+      "octinoxate": "7.5%",
+      "temperature": 40,
+      "special_instructions": "Gradual incorporation to avoid clumping"
+    },
+    "phase_d_active": {
+      "niacinamide": "3.0%",
+      "hyaluronic_acid": "1.5%",
+      "peptide_complex": "2.0%",
+      "temperature": 35
+    },
+    "phase_e_preservation": {
+      "R0104015": 0.8,   // Microcare PHG
+      "phenoxyethanol": "0.5%"
+    }
+  },
+  
+  "manufacturing_sequence": [
+    {
+      "step": 1,
+      "ingredient": "Water Phase Base",
+      "quantity": "56.0g",
+      "vessel_contents_before": "Empty defense reactor",
+      "reaction": "Aqueous matrix formation with thickening network",
+      "vessel_contents_after": "Structured aqueous gel",
+      "interim_product_name": "Defense Base Matrix",
+      "observable_changes": "Clear gel with optimal flow properties"
+    },
+    {
+      "step": 2,
+      "ingredient": "Oil Phase Emulsion", 
+      "quantity": "9.5g",
+      "vessel_contents_before": "Aqueous gel base (56.0g)",
+      "reaction": "Emulsification → stable lipid barrier formation",
+      "vessel_contents_after": "Emulsion base with barrier enhancement",
+      "interim_product_name": "Barrier Defense Emulsion",
+      "observable_changes": "Creamy white emulsion, enhanced skin barrier"
+    },
+    {
+      "step": 3,
+      "ingredient": "UV Filter Complex",
+      "quantity": "25.5g", 
+      "vessel_contents_before": "Barrier emulsion (65.5g)",
+      "reaction": "UV filter dispersion → broad spectrum protection matrix",
+      "vessel_contents_after": "Protected defense emulsion",
+      "interim_product_name": "UV Shield Protector",
+      "observable_changes": "Slight tinting, excellent coverage, no white cast"
+    },
+    {
+      "step": 4,
+      "ingredient": "Active Complex",
+      "quantity": "6.5g",
+      "vessel_contents_before": "UV protected emulsion (91.0g)", 
+      "reaction": "Active integration → anti-aging enhancement",
+      "vessel_contents_after": "Complete defense treatment",
+      "interim_product_name": "Ultimate Defense Formula",
+      "observable_changes": "Smooth, elegant finish with active benefits"
+    }
+  ],
+  
+  "benefits": [
+    "Broad spectrum SPF 25 protection",
+    "UVA/UVB defense with physical + chemical filters",
+    "Anti-aging peptide technology",
+    "24-hour hydration system",
+    "Skin barrier strengthening", 
+    "Pollution protection",
+    "Blue light defense"
+  ],
+  
+  "application_instructions": [
+    "Apply liberally 15 minutes before sun exposure",
+    "Reapply every 2 hours or after swimming/sweating",
+    "Use as final step in morning routine",
+    "Can be worn under makeup"
+  ],
+  
+  "safety_assessment": {
+    "safety_status": "COSMETICALLY_SAFE",
+    "patch_test": "Standard recommendation",
+    "broad_spectrum": true,
+    "water_resistant": "40 minutes",
+    "ph_target": 6.8,
+    "shelf_life": "24 months"
+  },
+  
+  "expected_results": {
+    "immediate": "Invisible protection with smooth finish",
+    "daily_use": "Prevented UV damage and premature aging",
+    "4_weeks": "Improved skin texture and hydration",
+    "clinical_studies": "SPF 25 verified, 95% UVA protection"
+  },
+  
+  "ingredient_count": 26,
+  "total_concentration": 100.0,
+  "stability_testing": {
+    "temperature_range": "5°C to 45°C",
+    "uv_stability": "Excellent - filters remain stable",
+    "freeze_thaw": "Passed 5 cycles", 
+    "spf_retention": "Maintains SPF for 24 months"
+  }
+}

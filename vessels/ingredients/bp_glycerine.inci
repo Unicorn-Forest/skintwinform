@@ -1,0 +1,163 @@
+// B.P. Glycerine - Premium Humectant and Moisturizer
+// Ingredient ID: R0101114
+// INCI: Glycerin
+{
+  "id": "R0101114",
+  "label": "B.P. Glycerine",
+  "inci_name": "Glycerin",
+  "category": "Humectant",
+  "grade": "British Pharmacopoeia (B.P.) Grade",
+  
+  "chemical_properties": {
+    "molecular_formula": "C3H8O3",
+    "molecular_weight": "92.09 g/mol",
+    "cas_number": "56-81-5",
+    "concentration_range": {
+      "min": 1.0,
+      "max": 20.0,
+      "typical": 5.0
+    },
+    "ph_range": {
+      "min": 4.5,
+      "max": 8.5,
+      "optimal": 7.0
+    },
+    "solubility": "Miscible with water and alcohol"
+  },
+  
+  "functional_properties": {
+    "functions": [
+      "Humectant",
+      "Moisturizer",
+      "Solvent",
+      "Viscosity modifier",
+      "Skin conditioning agent",
+      "Texture enhancer"
+    ],
+    "mechanism_of_action": "Attracts and retains moisture from environment and deeper skin layers",
+    "hygroscopic_properties": "Absorbs moisture up to 20% of its weight",
+    "compatibility": {
+      "synergistic": [
+        "Hyaluronic acid",
+        "Sodium PCA",
+        "Urea",
+        "Ceramides",
+        "All water-soluble actives"
+      ],
+      "avoid": [
+        "High concentrations may feel sticky",
+        "Very low humidity environments (may draw moisture from skin)"
+      ],
+      "neutral": [
+        "Most cosmetic ingredients",
+        "Preservatives",
+        "Emulsifiers"
+      ]
+    }
+  },
+  
+  "safety_regulatory": {
+    "safety_rating": "GRAS",
+    "restrictions": [],
+    "allergen_info": "Non-allergenic, suitable for sensitive skin",
+    "regulatory_status": "Approved globally, pharmacopoeia grade",
+    "safety_data": {
+      "oral_ld50": ">12,600 mg/kg (rat)",
+      "dermal_ld50": ">10,000 mg/kg (rabbit)",
+      "eye_irritation": "Mild irritant in undiluted form",
+      "skin_irritation": "Non-irritating at cosmetic concentrations"
+    }
+  },
+  
+  "commercial_information": {
+    "pricing_zar": 180.00,  // Per 100g - cost-effective humectant
+    "supplier_ids": ["NAT0001", "MEG0001", "CRO0001"],
+    "packaging_options": ["200kg drums", "25kg containers", "5kg bottles"],
+    "shelf_life_months": 36,
+    "storage_requirements": "Store in tightly closed containers, avoid moisture absorption"
+  },
+  
+  "usage_statistics": {
+    "usage_frequency": 42,     // Used in 42 products (75% of portfolio)
+    "criticality_score": 78,   // High importance for hydration
+    "average_concentration": 4.8,
+    "concentration_distribution": {
+      "high_usage": "8-20% (intensive treatments)",
+      "medium_usage": "3-8% (daily moisturizers)",
+      "low_usage": "1-3% (lightweight formulations)"
+    }
+  },
+  
+  "technical_specifications": {
+    "appearance": "Clear, colorless, syrupy liquid",
+    "specific_gravity": "1.25-1.27 (25°C)",
+    "refractive_index": "1.473-1.474 (20°C)",
+    "viscosity": "950-1,400 mPa·s (20°C)",
+    "water_content": "≤0.5%",
+    "ash_content": "≤0.01%",
+    "purity": "≥99.5%"
+  },
+  
+  "formulation_guidelines": {
+    "addition_phase": "Phase A - Water phase",
+    "incorporation_method": "Direct addition with standard mixing",
+    "temperature_stability": "Stable up to 150°C",
+    "optimal_concentration": {
+      "dry_skin": "5-10%",
+      "normal_skin": "3-5%",
+      "oily_skin": "1-3%",
+      "sensitive_skin": "2-6%"
+    },
+    "formulation_tips": [
+      "Can replace up to 30% of water content",
+      "Excellent solvent for actives",
+      "Helps improve product stability",
+      "Reduces tackiness when combined with other humectants"
+    ],
+    "quality_control": [
+      "Specific gravity measurement",
+      "Refractive index testing", 
+      "Water content analysis",
+      "Viscosity measurement"
+    ]
+  },
+  
+  "network_analysis": {
+    "node_degree": 42,  // Connected to 42 products
+    "betweenness_centrality": 0.71,  // Important connector in hydration network
+    "clustering_coefficient": 0.22,  // Forms clusters with other humectants
+    "eigenvector_centrality": 0.68,  // High influence in moisture network
+    "community": "Hydration/Humectant community"
+  },
+  
+  "performance_characteristics": {
+    "moisture_binding_capacity": "Binds up to 3x its weight in water",
+    "skin_penetration": "Moderate - primarily acts on stratum corneum",
+    "film_formation": "Forms beneficial moisture barrier",
+    "sensory_properties": {
+      "at_3%": "Smooth, non-sticky",
+      "at_5%": "Rich, moisturizing feel",
+      "at_10%": "Very rich, may feel slightly tacky",
+      "above_10%": "Requires balancing with other ingredients"
+    }
+  },
+  
+  "environmental_impact": {
+    "biodegradability": "Readily biodegradable",
+    "environmental_fate": "Completely metabolized by microorganisms",
+    "aquatic_toxicity": "Practically non-toxic",
+    "source": "Plant-derived (palm, coconut, soy) or synthetic",
+    "sustainability_options": "RSPO certified palm-derived available"
+  },
+  
+  "clinical_benefits": {
+    "immediate": "Instant moisture boost and smooth feel",
+    "short_term": "Improved skin hydration and barrier function",
+    "long_term": "Enhanced skin resilience and reduced TEWL",
+    "clinical_studies": [
+      "Increases skin hydration by 25% after 2 hours (corneometer)",
+      "Reduces TEWL by 15% after 4 weeks of daily use",
+      "Compatible with compromised skin barriers"
+    ]
+  }
+}

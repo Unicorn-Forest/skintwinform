@@ -1,0 +1,177 @@
+// Meganede CC - Specialized Active Ingredients Supplier  
+// Supplier ID: MEG0001
+// Primary Specialization: Bioactive Compounds
+{
+  "supplier_id": "MEG0001",
+  "label": "Meganede CC", 
+  "company_name": "Meganede Cosmetic Components (Pty) Ltd",
+  "company_type": "Close Corporation",
+  
+  "business_information": {
+    "ingredient_portfolio_size": 15,  // Second largest supplier
+    "market_share": 16.0,  // 16% of total ingredient supply
+    "geographic_focus": ["South Africa", "Botswana", "Namibia"],
+    "specializations": [
+      "Bioactive Compounds",
+      "Natural Extracts",
+      "Peptide Complexes",
+      "Anti-aging Actives"
+    ],
+    "years_in_business": 18,
+    "annual_revenue_range": "R25-50M"
+  },
+  
+  "contact_information": {
+    "headquarters": "Cape Town, South Africa",
+    "address": "45 Biotech Park, Bellville, 7530",
+    "phone": "+27 21 987 6543", 
+    "email": "sales@meganede.co.za",
+    "website": "www.meganede.co.za",
+    "primary_contact": "Dr. Elena Rodriguez - Business Development",
+    "technical_contact": "Prof. James Peterson - Chief Scientist"
+  },
+  
+  "ingredient_portfolio": [
+    "R0105042",  // Peptide Complex Advanced
+    "R0105039",  // Plant Stem Cell Extract
+    "R1905042",  // Botanical Extract Complex
+    "R1905039",  // Marine Bioactive
+    "R0108125",  // Vitamin Complex
+    "R0108127",  // Antioxidant Synergy
+    "R0109033",  // Ceramide Blend
+    "R0109035",  // Hyaluronic Complex
+    "R1907088",  // Growth Factor Analog
+    "R1908125",  // Brightening Complex
+    "R1909067",  // Firming Peptide
+    "R1911045",  // Barrier Repair Complex
+    "R1912088",  // Anti-inflammatory Extract
+    "R1915033",  // Collagen Booster
+    "R1916077"   // DNA Repair Complex
+  ],
+  
+  "commercial_terms": {
+    "payment_terms": "45 days net (extended for research customers)",
+    "minimum_order_value": 8000.00,  // ZAR - higher due to specialized actives
+    "lead_time_standard": 21,  // days - longer for specialized actives
+    "volume_discounts": {
+      "tier_1": "2-5kg: 3% discount",
+      "tier_2": "5-25kg: 7% discount",
+      "tier_3": "25kg+: 12% discount"
+    },
+    "incoterms": "CIF major SA cities",
+    "currency": "ZAR with USD option for imports"
+  },
+  
+  "quality_certifications": [
+    "ISO 9001:2015 Quality Management",
+    "ISO 22716:2007 Cosmetics GMP", 
+    "Ecocert Natural/Organic Certified",
+    "NATRUE Certified",
+    "Cosmos Approved",
+    "FDA Registered Facility"
+  ],
+  
+  "quality_grade_standards": [
+    "Cosmeceutical Grade",
+    "Clinical Trial Grade",
+    "Organic Certified",
+    "Natural Certified"
+  ],
+  
+  "technical_services": {
+    "formulation_support": true,
+    "regulatory_documentation": "Comprehensive including efficacy studies",
+    "technical_training": "Advanced training on bioactive mechanisms",
+    "custom_synthesis": "Available for peptides and small molecules",
+    "analytical_testing": "Specialized bioactivity testing",
+    "stability_testing": "Bioactivity retention studies",
+    "efficacy_studies": "In-vitro and clinical testing services"
+  },
+  
+  "research_capabilities": {
+    "in_house_laboratory": "1200m² research facility",
+    "testing_capabilities": [
+      "Cell culture assays",
+      "Enzyme inhibition studies", 
+      "Penetration testing",
+      "Biocompatibility assessment",
+      "Antioxidant capacity testing"
+    ],
+    "equipment": [
+      "HPLC-MS systems",
+      "Cell culture facilities",
+      "Microscopy suite",
+      "Spectrophotometer array"
+    ]
+  },
+  
+  "logistics_capabilities": {
+    "warehouse_locations": ["Cape Town", "Johannesburg"],
+    "storage_facilities": "Cold chain capable (-20°C to +25°C)",
+    "packaging_options": [
+      "100g amber bottles",
+      "500g containers",
+      "1kg specialized containers",
+      "Custom packaging for actives"
+    ],
+    "shipping_methods": ["Temperature-controlled transport", "Express cold chain"],
+    "tracking_system": "Temperature logging throughout supply chain"
+  },
+  
+  "relationship_metrics": {
+    "partnership_level": "Preferred Supplier",
+    "contract_length": "2-year renewable agreements",
+    "reliability_score": 91,  // High for specialized actives
+    "quality_incidents": 1,   // Last 12 months
+    "delivery_performance": "89% on-time (acceptable for specialized actives)",
+    "customer_satisfaction": 4.8  // Very high for technical support
+  },
+  
+  "sustainability_initiatives": {
+    "environmental_certifications": ["Carbon Trust Certified"],
+    "sustainable_sourcing": "95% of botanical ingredients sustainably sourced",
+    "biodegradability": "All ingredients tested for environmental impact", 
+    "ethical_sourcing": "Fair trade certified for botanical extracts",
+    "packaging": "100% recyclable packaging program"
+  },
+  
+  "innovation_focus": {
+    "rd_investment": "15% of annual revenue",
+    "research_areas": [
+      "Biomimetic peptides",
+      "Plant stem cell technology",
+      "Marine biotechnology",
+      "Microencapsulation systems"
+    ],
+    "patent_portfolio": "8 active patents, 5 pending",
+    "research_partnerships": [
+      "University of Cape Town (biotechnology)",
+      "Stellenbosch University (plant science)",
+      "International peptide research consortium"
+    ]
+  },
+  
+  "specialized_services": {
+    "custom_peptide_synthesis": "2-4 week turnaround",
+    "extract_standardization": "Custom concentration services",
+    "formulation_consulting": "Bioactive optimization",
+    "regulatory_support": "Cosmeceutical registration assistance",
+    "efficacy_validation": "Independent testing protocols"
+  },
+  
+  "competitive_advantages": [
+    "Cutting-edge bioactive research",
+    "Custom synthesis capabilities",
+    "Comprehensive efficacy validation",
+    "Strong academic partnerships",
+    "Regulatory expertise for cosmeceuticals",
+    "Cold chain logistics capability"
+  ],
+  
+  "supply_chain_risk_management": {
+    "supplier_diversification": "Multiple sources for botanical materials",
+    "inventory_strategy": "Strategic safety stock for key actives",
+    "quality_assurance": "Batch-to-batch bioactivity verification",
+    "backup_manufacturing": "Alternative synthesis routes for peptides"
+  }
+}

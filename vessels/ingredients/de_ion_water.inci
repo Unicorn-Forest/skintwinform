@@ -1,0 +1,101 @@
+// De Ion Water - Primary Formulation Base
+// Ingredient ID: R010000
+// INCI: Aqua (Water)
+{
+  "id": "R010000",
+  "label": "De Ion Water",
+  "inci_name": "Aqua",
+  "category": "Base/Carrier",
+  
+  "chemical_properties": {
+    "molecular_formula": "H2O",
+    "molecular_weight": "18.015 g/mol",
+    "concentration_range": {
+      "min": 30.0,
+      "max": 85.0, 
+      "typical": 65.0
+    },
+    "ph_range": {
+      "min": 6.5,
+      "max": 7.5,
+      "optimal": 7.0
+    },
+    "solubility": "Universal solvent"
+  },
+  
+  "functional_properties": {
+    "functions": [
+      "Solvent",
+      "Hydration base", 
+      "Carrier medium",
+      "pH buffer base"
+    ],
+    "compatibility": {
+      "synergistic": [
+        "All water-soluble ingredients",
+        "Humectants",
+        "Water-based actives",
+        "Emulsifiers"
+      ],
+      "avoid": [
+        "Water-sensitive ingredients",
+        "Anhydrous formulations"
+      ],
+      "neutral": [
+        "Most oil-soluble ingredients (when emulsified)"
+      ]
+    }
+  },
+  
+  "safety_regulatory": {
+    "safety_rating": "GRAS",
+    "restrictions": [],
+    "allergen_info": "Non-allergenic",
+    "regulatory_status": "Approved globally for cosmetic use"
+  },
+  
+  "commercial_information": {
+    "pricing_zar": 15.00,  // Per 100g - exceptionally low cost
+    "supplier_ids": ["Multiple - utility suppliers"],
+    "packaging_options": ["Bulk tanks", "200L drums", "20L containers"],
+    "shelf_life_months": 24
+  },
+  
+  "usage_statistics": {
+    "usage_frequency": 50,     // Used in 50 out of 56 total products (89%)
+    "criticality_score": 100,  // Maximum criticality - essential base
+    "average_concentration": 58.5,
+    "concentration_distribution": {
+      "high_usage": "60-85% (cleansers, toners)",
+      "medium_usage": "40-60% (serums, emulsions)", 
+      "low_usage": "30-40% (rich creams, oils)"
+    }
+  },
+  
+  "technical_specifications": {
+    "purity": "Deionized, <10 ppm total dissolved solids",
+    "conductivity": "<10 μS/cm",
+    "bacterial_count": "<10 CFU/ml",
+    "endotoxin_level": "<0.25 EU/ml",
+    "heavy_metals": "<1 ppm total"
+  },
+  
+  "formulation_guidelines": {
+    "addition_phase": "Phase A - Water phase",
+    "temperature_stability": "0°C to 100°C",
+    "mixing_requirements": "Standard - no special handling",
+    "storage_conditions": "Room temperature, covered containers",
+    "quality_control": [
+      "Conductivity testing",
+      "Microbial testing",
+      "pH verification"
+    ]
+  },
+  
+  "network_analysis": {
+    "node_degree": 50,  // Connected to 50 products
+    "betweenness_centrality": 0.89,  // High pathway importance
+    "clustering_coefficient": 0.15,  // Forms clusters with humectants
+    "eigenvector_centrality": 0.95   // Very high influence in network
+  }
+}
