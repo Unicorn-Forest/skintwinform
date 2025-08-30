@@ -5,7 +5,7 @@
   
   **An AI-powered skincare formulation assistant that runs in your browser**
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
   [![Node.js](https://img.shields.io/badge/Node.js-18.18.0+-green.svg)](https://nodejs.org/)
   [![Remix](https://img.shields.io/badge/Remix-2.x-blue.svg)](https://remix.run/)
 </div>
