@@ -48,3 +48,6 @@ docs/instructions/Roadmap.md
 .qodo
 !DEVO-GENESIS.md
 !vessels/examples/*.md
+!vessels/SCHEMA.md
+!vessels/HYPERGRAPH_INTEGRATION.md
+!vessels/README.md

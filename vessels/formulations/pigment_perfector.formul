@@ -1,0 +1,112 @@
+// Pigment Perfector - Advanced Brightening Treatment
+// Formulation ID: B19CIPP001
+// Category: Pigmentation Correction Serum
+{
+  "formulation_id": "B19CIPP001",
+  "product_name": "Pigment Perfector",
+  "category": "Treatment Serum", 
+  "vessel_type": "Precision_Brightening_Reactor",
+  "target_skin_type": ["Hyperpigmented", "Uneven tone", "Post-inflammatory"],
+  "complexity_score": 95,
+  
+  "formulation_phases": {
+    "phase_a_water": {
+      "R010000": 52.99,  // De Ion Water
+      "R0101114": 8.0,   // B.P. Glycerine
+      "temperature": 70,
+      "mixing_time": 20
+    },
+    "phase_b_active": {
+      "kojic_acid": "2.0%",
+      "arbutin": "3.0%",
+      "vitamin_c_magnesium_phosphate": "8.0%",
+      "niacinamide": "5.0%",
+      "temperature": 40,
+      "special_instructions": "pH adjustment critical for active stability"
+    },
+    "phase_c_peptide": {
+      "hexapeptide_complex": "2.5%",
+      "licorice_extract": "1.5%",
+      "temperature": 35
+    },
+    "phase_d_preservation": {
+      "R0104015": 1.0,   // Microcare PHG
+      "ethylhexylglycerin": "0.3%"
+    }
+  },
+  
+  "manufacturing_sequence": [
+    {
+      "step": 1,
+      "ingredient": "De Ion Water + Glycerine",
+      "quantity": "60.99g",
+      "vessel_contents_before": "Sterile reactor vessel",
+      "reaction": "Hydration base formation with enhanced penetration",
+      "vessel_contents_after": "Clear hydrophilic base",
+      "interim_product_name": "Penetration Base",
+      "observable_changes": "Clear, slightly viscous liquid"
+    },
+    {
+      "step": 2, 
+      "ingredient": "Vitamin C + Kojic Acid Complex",
+      "quantity": "10.0g",
+      "vessel_contents_before": "Hydration base (60.99g)",
+      "reaction": "Synergistic brightening cascade → melanin inhibition complex",
+      "vessel_contents_after": "Active brightening serum base", 
+      "interim_product_name": "Brightening Catalyst Serum",
+      "observable_changes": "Slight yellow tint, potent antioxidant activity"
+    },
+    {
+      "step": 3,
+      "ingredient": "Hexapeptide Complex",
+      "quantity": "2.5g",
+      "vessel_contents_before": "Active brightening base (70.99g)",
+      "reaction": "Peptide integration → cellular renewal acceleration",
+      "vessel_contents_after": "Advanced brightening treatment",
+      "interim_product_name": "Renewal Perfector Serum", 
+      "observable_changes": "Smooth, silky texture with enhanced delivery"
+    }
+  ],
+  
+  "benefits": [
+    "Visible pigmentation reduction in 14 days",
+    "Even skin tone restoration",
+    "Melanin production regulation", 
+    "Cellular renewal acceleration",
+    "Antioxidant protection",
+    "Post-inflammatory healing"
+  ],
+  
+  "application_instructions": [
+    "Apply 2-3 drops to clean face PM only",
+    "Gently massage until absorbed",
+    "Always follow with SPF during day",
+    "Introduce gradually - start 3x per week"
+  ],
+  
+  "safety_assessment": {
+    "safety_status": "REQUIRES_TESTING", 
+    "patch_test": "Mandatory - high active concentration",
+    "restrictions": ["Evening use only", "SPF mandatory next day"],
+    "contraindications": ["Pregnancy", "Nursing", "Active tretinoin use"],
+    "ph_target": 4.5,
+    "shelf_life": "12 months"
+  },
+  
+  "expected_results": {
+    "2_weeks": "Initial brightening visible",
+    "4_weeks": "Significant tone evening",
+    "8_weeks": "Major pigmentation reduction", 
+    "12_weeks": "Optimal brightening achieved",
+    "clinical_studies": "87% showed visible improvement in 4 weeks"
+  },
+  
+  "ingredient_count": 25,
+  "total_concentration": 100.0,
+  "stability_testing": {
+    "temperature_range": "2°C to 25°C storage only",
+    "light_sensitivity": "Extreme - opaque packaging required",
+    "oxidation_protection": "Nitrogen flushing recommended",
+    "ph_stability": "Critical - monitor monthly"
+  }
+}

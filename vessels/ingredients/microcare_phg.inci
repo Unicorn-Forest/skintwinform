@@ -1,0 +1,153 @@
+// Microcare PHG - Advanced Preservative System
+// Ingredient ID: R0104015
+// INCI: Phenoxyethanol (and) Decylene Glycol (and) Caprylyl Glycol
+{
+  "id": "R0104015", 
+  "label": "Microcare PHG",
+  "inci_name": "Phenoxyethanol (and) Decylene Glycol (and) Caprylyl Glycol",
+  "category": "Preservative",
+  
+  "chemical_properties": {
+    "molecular_components": {
+      "phenoxyethanol": "C8H10O2 (138.16 g/mol)",
+      "decylene_glycol": "C10H22O2 (174.28 g/mol)", 
+      "caprylyl_glycol": "C8H18O2 (146.23 g/mol)"
+    },
+    "concentration_range": {
+      "min": 0.5,
+      "max": 1.5,
+      "typical": 0.8
+    },
+    "ph_range": {
+      "min": 3.0,
+      "max": 8.0,
+      "optimal": 5.5
+    },
+    "solubility": "Water soluble with mild co-solvency"
+  },
+  
+  "functional_properties": {
+    "functions": [
+      "Broad spectrum antimicrobial",
+      "Fungal inhibition",
+      "Bacterial prevention",
+      "Mold protection", 
+      "Yeast control",
+      "Secondary conditioning"
+    ],
+    "antimicrobial_spectrum": {
+      "gram_positive_bacteria": "Excellent efficacy",
+      "gram_negative_bacteria": "Very good efficacy",
+      "yeasts": "Excellent efficacy",
+      "molds": "Good efficacy"
+    },
+    "compatibility": {
+      "synergistic": [
+        "Ethylhexylglycerin",
+        "Sorbic acid",
+        "Benzoic acid",
+        "Water-based systems"
+      ],
+      "avoid": [
+        "Strong bases pH >8",
+        "High temperatures >70°C during processing",
+        "Incompatible metal ions"
+      ],
+      "neutral": [
+        "Most cosmetic ingredients",
+        "Proteins and peptides", 
+        "Vitamins",
+        "Plant extracts"
+      ]
+    }
+  },
+  
+  "safety_regulatory": {
+    "safety_rating": "COSMETICALLY_SAFE",
+    "restrictions": [
+      "Maximum 1.0% in leave-on products",
+      "Maximum 1.5% in rinse-off products"
+    ],
+    "allergen_info": "Low sensitization potential",
+    "regulatory_status": "EU approved, FDA compliant",
+    "ecocert_compatible": false,
+    "china_approved": true
+  },
+  
+  "commercial_information": {
+    "pricing_zar": 2850.00,  // Per 100g - premium preservative system
+    "supplier_ids": ["CRO0001", "NAT0001", "CHE0004"],
+    "packaging_options": ["20kg drums", "5kg containers", "1kg bottles"],
+    "shelf_life_months": 24,
+    "storage_requirements": "Cool, dry, away from light"
+  },
+  
+  "usage_statistics": {
+    "usage_frequency": 19,     // Used in 19 products (34% of portfolio)
+    "criticality_score": 92,   // Critical for product safety
+    "average_concentration": 0.83,
+    "primary_applications": [
+      "Water-based serums",
+      "Emulsions and creams",
+      "Gels and masks",
+      "Cleansing products"
+    ]
+  },
+  
+  "technical_specifications": {
+    "appearance": "Clear to slightly hazy liquid",
+    "color": "Colorless to pale yellow",
+    "odor": "Mild, characteristic",
+    "specific_gravity": "1.01-1.03 (25°C)",
+    "refractive_index": "1.460-1.470",
+    "water_content": "<2.0%"
+  },
+  
+  "formulation_guidelines": {
+    "addition_phase": "Phase C - Cool down phase (<40°C)",
+    "incorporation_method": "Direct addition with gentle mixing",
+    "temperature_limit": "Add below 40°C to maintain efficacy",
+    "ph_optimization": "Optimal activity at pH 4.5-6.5",
+    "synergist_recommendations": [
+      "0.1-0.2% Ethylhexylglycerin",
+      "0.05-0.1% EDTA for chelation"
+    ],
+    "quality_control": [
+      "Preservative efficacy testing (PET)",
+      "pH monitoring",
+      "Microbial limit testing",
+      "Assay for active content"
+    ]
+  },
+  
+  "network_analysis": {
+    "node_degree": 19,  // Connected to 19 products
+    "betweenness_centrality": 0.52,  // Important safety connector
+    "clustering_coefficient": 0.31,  // Clusters with preservation systems
+    "eigenvector_centrality": 0.38,  // Moderate network influence
+    "community": "Preservation system community"
+  },
+  
+  "efficacy_data": {
+    "challenge_test_results": {
+      "minimum_inhibitory_concentration": {
+        "e_coli": "0.15%",
+        "p_aeruginosa": "0.20%", 
+        "s_aureus": "0.10%",
+        "c_albicans": "0.25%",
+        "a_niger": "0.30%"
+      }
+    },
+    "stability_in_formulations": {
+      "ph_3_to_8": "Stable",
+      "temperature_cycling": "Stable 5-40°C",
+      "light_exposure": "Slight degradation - light protection recommended"
+    }
+  },
+  
+  "sustainability": {
+    "biodegradability": "Readily biodegradable components",
+    "environmental_impact": "Low aquatic toxicity",
+    "natural_origin": "Synthetic but nature-identical components"
+  }
+}

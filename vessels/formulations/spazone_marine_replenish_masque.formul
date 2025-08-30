@@ -1,0 +1,107 @@
+// SpaZone Marine Replenish Masque - Advanced Hydrating Treatment
+// Formulation ID: B19PRDSPAMRM000
+// Category: Intensive Treatment Masque
+{
+  "formulation_id": "B19PRDSPAMRM000",
+  "product_name": "SpaZone Marine Replenish Masque", 
+  "category": "Treatment Masque",
+  "vessel_type": "Marine_Hydro_Reactor",
+  "target_skin_type": ["Dehydrated", "Sensitive", "Mature"],
+  "complexity_score": 87,
+  
+  "formulation_phases": {
+    "phase_a_water": {
+      "R010000": 65.6,  // De Ion Water - primary base
+      "R0101114": 5.0,  // B.P. Glycerine - humectant
+      "ingredients": {
+        "distilled_water": "65.6%",
+        "glycerine": "5.0%"
+      },
+      "temperature": 75,
+      "mixing_time": 15
+    },
+    "phase_b_marine": {
+      "marine_collagen_complex": "8.0%",
+      "seaweed_extract": "3.2%", 
+      "pearl_powder": "1.5%",
+      "temperature": 45,
+      "special_instructions": "Gentle mixing to preserve marine actives"
+    },
+    "phase_c_preservation": {
+      "R0104015": 0.8,  // Microcare PHG - preservative
+      "temperature": 35
+    }
+  },
+  
+  "manufacturing_sequence": [
+    {
+      "step": 1,
+      "ingredient": "De Ion Water",
+      "quantity": "65.6g",
+      "vessel_contents_before": "Empty reactor vessel", 
+      "reaction": "H2O → forms aqueous base matrix",
+      "vessel_contents_after": "Clear aqueous phase established",
+      "interim_product_name": "Hydro-Base Matrix",
+      "observable_changes": "Clear colorless liquid, optimal hydration base"
+    },
+    {
+      "step": 2,
+      "ingredient": "B.P. Glycerine", 
+      "quantity": "5.0g",
+      "vessel_contents_before": "Aqueous base (65.6g water)",
+      "reaction": "C3H8O3 + H2O → enhanced moisture retention complex",
+      "vessel_contents_after": "Humectant-enriched aqueous phase",
+      "interim_product_name": "Moisture-Lock Foundation",
+      "observable_changes": "Slight viscosity increase, enhanced skin-feel"
+    },
+    {
+      "step": 3,
+      "ingredient": "Marine Collagen Complex",
+      "quantity": "8.0g", 
+      "vessel_contents_before": "Glycerine-water base (70.6g)",
+      "reaction": "Marine peptides + aqueous_matrix → bioactive hydrogel formation",
+      "vessel_contents_after": "Protein-enriched hydrating gel",
+      "interim_product_name": "Marine Vitality Gel",
+      "observable_changes": "Pale blue tint, smooth gel texture, marine essence aroma"
+    }
+  ],
+  
+  "benefits": [
+    "Intensive 72-hour hydration",
+    "Marine mineral replenishment", 
+    "Collagen synthesis support",
+    "Barrier repair acceleration",
+    "Plumping and firming effect"
+  ],
+  
+  "application_instructions": [
+    "Apply thick layer to cleansed face",
+    "Leave for 15-20 minutes", 
+    "Remove with damp cloth",
+    "Follow with serum and moisturizer"
+  ],
+  
+  "safety_assessment": {
+    "safety_status": "COSMETICALLY_SAFE",
+    "patch_test": "Recommended for sensitive skin",
+    "contraindications": ["Shellfish allergies"],
+    "ph_target": 6.2,
+    "shelf_life": "18 months"
+  },
+  
+  "expected_results": {
+    "immediate": "Visible plumping and hydration",
+    "1_week": "Improved skin texture and radiance", 
+    "4_weeks": "Enhanced firmness and elasticity",
+    "clinical_studies": "92% showed improved hydration after single use"
+  },
+  
+  "ingredient_count": 18,
+  "total_concentration": 100.0,
+  "stability_testing": {
+    "temperature_range": "5°C to 40°C",
+    "freeze_thaw_cycles": 5,
+    "light_stability": "UV protected packaging required",
+    "microbial_challenge": "Passed USP <51>"
+  }
+}

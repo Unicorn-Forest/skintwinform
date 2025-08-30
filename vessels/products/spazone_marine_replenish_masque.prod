@@ -1,0 +1,151 @@
+// SpaZone Marine Replenish Masque - Intensive Hydrating Treatment
+// Product ID: B19PRDSPAMRM000
+// Category: Professional Treatment Masque
+{
+  "product_id": "B19PRDSPAMRM000",
+  "product_name": "SpaZone Marine Replenish Masque",
+  "brand_line": "SpaZone Professional",
+  "category": "Treatment Masque",
+  "subcategory": "Intensive Hydrating Treatment",
+  
+  "target_demographics": {
+    "skin_types": ["Dehydrated", "Sensitive", "Mature", "Post-treatment"],
+    "age_range": "25-65+",
+    "skin_concerns": [
+      "Severe dehydration", 
+      "Loss of firmness",
+      "Fine lines from dehydration",
+      "Compromised skin barrier",
+      "Post-procedure recovery"
+    ],
+    "usage_occasion": "Weekly intensive treatment"
+  },
+  
+  "product_specifications": {
+    "texture": "Rich, luxurious gel-cream",
+    "color": "Pale blue with marine essence",
+    "fragrance": "Light marine/oceanic scent",
+    "viscosity": "Thick, non-dripping application",
+    "ph": 6.2,
+    "packaging": {
+      "primary": "50ml airless pump tube",
+      "secondary": "Luxury marine-themed box",
+      "material": "Recyclable aluminum/plastic composite"
+    }
+  },
+  
+  "formulation_complexity": {
+    "ingredient_count": 18,
+    "complexity_score": 87,
+    "active_ingredient_percentage": 32.5,
+    "key_actives": [
+      "Marine Collagen Complex (8.0%)",
+      "Seaweed Extract (3.2%)",
+      "Pearl Powder (1.5%)",
+      "Glycerine (5.0%)"
+    ]
+  },
+  
+  "clinical_benefits": {
+    "immediate_benefits": [
+      "Instant hydration boost",
+      "Visible plumping effect",
+      "Soothing sensation",
+      "Improved skin texture"
+    ],
+    "short_term_benefits": [
+      "72-hour hydration retention",
+      "Enhanced skin elasticity", 
+      "Reduced appearance of fine lines",
+      "Improved skin barrier function"
+    ],
+    "long_term_benefits": [
+      "Cumulative firming effect",
+      "Enhanced skin resilience",
+      "Improved overall skin quality",
+      "Anti-aging prevention"
+    ]
+  },
+  
+  "usage_instructions": {
+    "frequency": "1-2 times per week",
+    "application_method": [
+      "Apply thick, even layer to clean, dry skin",
+      "Avoid eye and lip areas", 
+      "Leave for 15-20 minutes",
+      "Remove with damp cloth or rinse with lukewarm water",
+      "Follow with serum and moisturizer"
+    ],
+    "application_amount": "2-3ml per application",
+    "optimal_timing": "Evening, after cleansing",
+    "contraindications": ["Open wounds", "Active irritation", "Shellfish allergies"]
+  },
+  
+  "performance_validation": {
+    "clinical_studies": {
+      "study_1": {
+        "participants": 32,
+        "duration": "4 weeks",
+        "result": "92% showed improved hydration after single use",
+        "measurement": "Corneometer readings"
+      },
+      "study_2": {
+        "participants": 28, 
+        "duration": "8 weeks",
+        "result": "87% showed improved skin firmness",
+        "measurement": "Cutometer elasticity measurements"
+      }
+    },
+    "consumer_testing": {
+      "satisfaction_rate": "94%",
+      "repurchase_intent": "89%",
+      "key_benefits_confirmed": [
+        "Intense hydration (96%)",
+        "Smoother skin texture (91%)",
+        "Luxury experience (94%)"
+      ]
+    }
+  },
+  
+  "manufacturing_specifications": {
+    "batch_size": "500kg standard production",
+    "production_time": "4.5 hours including cooling",
+    "quality_control_points": 8,
+    "shelf_life": "18 months unopened, 6 months after opening",
+    "storage_conditions": "15-25°C, protect from direct sunlight",
+    "microbial_limits": "USP <61> compliant"
+  },
+  
+  "market_positioning": {
+    "price_tier": "Premium professional",
+    "retail_price_zar": 1250.00,
+    "cost_per_application": 25.00,
+    "target_channels": [
+      "Professional spas",
+      "Dermatology clinics", 
+      "Premium beauty retailers",
+      "Online professional platforms"
+    ],
+    "competitive_advantages": [
+      "Marine-sourced actives",
+      "Professional-grade concentration",
+      "Clinically proven efficacy",
+      "Luxury sensory experience"
+    ]
+  },
+  
+  "regulatory_compliance": {
+    "safety_assessments": "Completed and approved",
+    "stability_testing": "24 months accelerated stability passed",
+    "claim_substantiation": "All claims clinically validated",
+    "international_compliance": ["EU Cosmetics Regulation", "FDA OTC", "Health Canada"],
+    "certifications": ["ISO 22716 GMP", "Cruelty-free certified"]
+  },
+  
+  "supply_chain_risk": {
+    "critical_ingredients": 3,
+    "single_source_dependencies": 1,
+    "supply_risk_score": 28,  // Low risk
+    "backup_suppliers": "Available for 94% of ingredients"
+  }
+}
