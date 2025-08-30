@@ -49,3 +49,5 @@ docs/instructions/Roadmap.md
 !DEVO-GENESIS.md
 !vessels/examples/*.md
 !vessels/SCHEMA.md
+!vessels/HYPERGRAPH_INTEGRATION.md
+!vessels/README.md

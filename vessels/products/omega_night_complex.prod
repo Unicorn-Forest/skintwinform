@@ -1,0 +1,186 @@
+// Omega Night Complex - Essential Fatty Acid Restoration
+// Product ID: B19NBO003
+// Category: Specialized Night Treatment
+{
+  "product_id": "B19NBO003",
+  "product_name": "Omega Night Complex",
+  "brand_line": "Advanced Repair Systems",
+  "category": "Night Complex",
+  "subcategory": "Lipid Restoration Treatment",
+  
+  "target_demographics": {
+    "skin_types": ["Dry", "Damaged barrier", "Mature", "Compromised"],
+    "age_range": "30-70+",
+    "skin_concerns": [
+      "Compromised skin barrier",
+      "Essential fatty acid deficiency",
+      "Chronic dryness",
+      "Inflammatory skin conditions",
+      "Post-treatment recovery",
+      "Environmental damage repair"
+    ],
+    "usage_occasion": "Nightly barrier restoration treatment"
+  },
+  
+  "product_specifications": {
+    "texture": "Rich, nourishing oil-cream hybrid",
+    "color": "Golden amber with natural oil undertones",
+    "fragrance": "Light, natural seed oil aroma",
+    "viscosity": "Rich but readily absorbed",
+    "ph": 5.8,
+    "packaging": {
+      "primary": "30ml airless pump bottle with UV protection",
+      "secondary": "Luxury amber glass outer packaging",
+      "material": "Light-protective materials with nitrogen flushing"
+    }
+  },
+  
+  "formulation_complexity": {
+    "ingredient_count": 24,  // High complexity for specialized treatment
+    "complexity_score": 94,
+    "active_lipid_percentage": 65.0,
+    "key_actives": [
+      "Omega-3 Fatty Acid Complex (25.0%)",
+      "Omega-6 Fatty Acid Blend (20.0%)",
+      "Ceramide Matrix (8.0%)",
+      "Phospholipid Complex (6.0%)",
+      "Cholesterol Esters (4.0%)",
+      "Plant Sterol Complex (2.0%)"
+    ]
+  },
+  
+  "clinical_benefits": {
+    "immediate_benefits": [
+      "Instant barrier reinforcement",
+      "Deep nourishment and comfort",
+      "Reduced sensation of tightness",
+      "Smooth, non-greasy application"
+    ],
+    "short_term_benefits": [
+      "Improved barrier function (1-2 weeks)",
+      "Enhanced skin elasticity (2-4 weeks)",
+      "Reduced TEWL (2-3 weeks)",
+      "Calming of irritation (1 week)"
+    ],
+    "long_term_benefits": [
+      "Restored barrier integrity (8-12 weeks)",
+      "Improved skin resilience (6+ weeks)",
+      "Enhanced overall skin quality (8+ weeks)",
+      "Reduced sensitivity to environmental stressors"
+    ]
+  },
+  
+  "usage_instructions": {
+    "frequency": "Every evening",
+    "application_method": [
+      "Apply 3-4 drops to clean, slightly damp skin",
+      "Gently press and massage into face and neck",
+      "Allow 5-10 minutes for full absorption",
+      "Can layer under night moisturizer if needed",
+      "Avoid direct eye contact"
+    ],
+    "application_amount": "1.5-2ml per application",
+    "optimal_timing": "Evening after cleansing, before heavier treatments",
+    "contraindications": ["Nut allergies (if nut-derived oils)", "Active inflammatory conditions"]
+  },
+  
+  "performance_validation": {
+    "clinical_studies": {
+      "barrier_function_study": {
+        "participants": 42,
+        "duration": "8 weeks",
+        "result": "68% improvement in barrier function (TEWL measurement)",
+        "measurement": "Trans-epidermal water loss reduction"
+      },
+      "lipid_analysis_study": {
+        "participants": 35,
+        "duration": "12 weeks", 
+        "result": "Significant increase in skin ceramide levels",
+        "measurement": "Tape stripping lipid analysis"
+      },
+      "skin_comfort_study": {
+        "participants": 28,
+        "duration": "4 weeks",
+        "result": "89% reported improved skin comfort and reduced dryness",
+        "measurement": "Subjective comfort scoring"
+      }
+    },
+    "consumer_testing": {
+      "satisfaction_rate": "92%",
+      "repurchase_intent": "88%",
+      "key_benefits_confirmed": [
+        "Deep nourishment (95%)",
+        "Improved skin texture (87%)",
+        "Reduced dryness (93%)",
+        "Non-greasy finish (84%)"
+      ]
+    }
+  },
+  
+  "manufacturing_specifications": {
+    "batch_size": "300kg specialized production",
+    "production_time": "5.5 hours with cold processing steps",
+    "quality_control_points": 10,
+    "shelf_life": "18 months unopened, 9 months after opening",
+    "storage_conditions": "15-22°C, protect from light and heat",
+    "oxidation_protection": "Nitrogen atmosphere packaging"
+  },
+  
+  "market_positioning": {
+    "price_tier": "Super premium therapeutic",
+    "retail_price_zar": 1890.00,
+    "cost_per_application": 63.00,
+    "target_channels": [
+      "Dermatology practices",
+      "Medical spas",
+      "Premium skincare boutiques",
+      "Professional estheticians",
+      "Online therapeutic platforms"
+    ],
+    "competitive_advantages": [
+      "Clinically optimal omega fatty acid ratios",
+      "Biomimetic lipid complex",
+      "Cold-pressed oil preservation",
+      "Professional therapeutic concentration"
+    ]
+  },
+  
+  "regulatory_compliance": {
+    "safety_assessments": "Enhanced safety for therapeutic use",
+    "stability_testing": "18 months real-time + accelerated stability",
+    "claim_substantiation": "Clinical evidence for barrier repair claims",
+    "international_compliance": [
+      "EU Cosmetics Regulation therapeutic claims",
+      "FDA cosmetic regulations",
+      "Health Canada natural health product guidelines"
+    ],
+    "certifications": [
+      "Organic ingredient certification (where applicable)",
+      "Cold-pressed processing certification",
+      "Therapeutic grade classification"
+    ]
+  },
+  
+  "supply_chain_risk": {
+    "critical_ingredients": 6,  // Omega oils are critical
+    "single_source_dependencies": 2,
+    "supply_risk_score": 58,  // Medium risk due to oil sourcing
+    "seasonal_variation": "Moderate - dependent on harvest seasons",
+    "backup_suppliers": "Available for 85% of key ingredients"
+  },
+  
+  "sustainability_profile": {
+    "sustainable_sourcing": "95% sustainably sourced oils",
+    "carbon_footprint": "Measured and offset through carbon credits",
+    "packaging_sustainability": "100% recyclable packaging",
+    "ethical_sourcing": "Fair trade certified where applicable",
+    "environmental_impact": "Minimal - biodegradable formula"
+  },
+  
+  "professional_education": {
+    "training_materials": "Available for skin professionals",
+    "indication_guidelines": "Comprehensive usage protocols",
+    "combination_therapy": "Guidelines for use with other treatments",
+    "patient_monitoring": "Barrier function assessment tools"
+  }
+}

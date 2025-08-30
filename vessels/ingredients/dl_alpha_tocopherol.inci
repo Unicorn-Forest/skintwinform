@@ -1,0 +1,173 @@
+// DL Alpha Tocopherol - Premium Vitamin E Complex
+// Ingredient ID: R0105123
+// INCI: Tocopherol
+{
+  "id": "R0105123",
+  "label": "DL A Tocopherol",
+  "inci_name": "Tocopherol",
+  "category": "Antioxidant",
+  "grade": "Cosmetic Grade (DL-Alpha form)",
+  
+  "chemical_properties": {
+    "molecular_formula": "C29H50O2",
+    "molecular_weight": "430.71 g/mol",
+    "cas_number": "59-02-9",
+    "concentration_range": {
+      "min": 0.1,
+      "max": 5.0,
+      "typical": 0.5
+    },
+    "ph_range": {
+      "min": 5.0,
+      "max": 8.0,
+      "optimal": 6.5
+    },
+    "solubility": "Oil soluble, insoluble in water"
+  },
+  
+  "functional_properties": {
+    "functions": [
+      "Antioxidant",
+      "Free radical scavenger",
+      "Skin conditioning agent",
+      "Anti-aging active",
+      "UV damage protection",
+      "Lipid stabilizer"
+    ],
+    "antioxidant_mechanism": "Neutralizes free radicals, regenerates other antioxidants",
+    "synergistic_antioxidants": ["Vitamin C", "Vitamin A", "Glutathione", "CoQ10"],
+    "compatibility": {
+      "synergistic": [
+        "Ascorbic acid (Vitamin C)",
+        "Retinol/Retinyl palmitate",
+        "Ferulic acid",
+        "Resveratrol",
+        "Green tea extract",
+        "Plant oils"
+      ],
+      "avoid": [
+        "Strong oxidizing agents",
+        "High temperatures during processing >60°C",
+        "Direct sunlight during formulation"
+      ],
+      "neutral": [
+        "Most emulsifiers",
+        "Humectants", 
+        "Preservatives"
+      ]
+    }
+  },
+  
+  "safety_regulatory": {
+    "safety_rating": "COSMETICALLY_SAFE",
+    "restrictions": [],
+    "allergen_info": "Generally non-allergenic, rare sensitivity cases",
+    "regulatory_status": "Approved globally for cosmetic use",
+    "safety_data": {
+      "oral_ld50": ">5000 mg/kg (rat)",
+      "dermal_irritation": "Non-irritating",
+      "eye_irritation": "Mild irritant in pure form",
+      "sensitization": "Non-sensitizing"
+    }
+  },
+  
+  "commercial_information": {
+    "pricing_zar": 2400.00,  // Per 100g - premium antioxidant
+    "supplier_ids": ["NAT0001", "MEG0001"],
+    "packaging_options": ["5kg amber containers", "1kg bottles", "250g bottles"],
+    "shelf_life_months": 24,
+    "storage_requirements": "Cool, dry, dark conditions, nitrogen flushing recommended"
+  },
+  
+  "usage_statistics": {
+    "usage_frequency": 35,     // Used in 35 products (62% of portfolio)
+    "criticality_score": 88,   // Very high importance for anti-aging
+    "average_concentration": 0.6,
+    "primary_applications": [
+      "Anti-aging serums and creams",
+      "Sun protection products",
+      "Oil-based treatments",
+      "Lip care products"
+    ]
+  },
+  
+  "technical_specifications": {
+    "appearance": "Clear to pale yellow viscous oil",
+    "specific_gravity": "0.950-0.970 (25°C)",
+    "refractive_index": "1.503-1.507 (20°C)",
+    "acid_value": "≤0.5 mg KOH/g",
+    "peroxide_value": "≤10 meq O2/kg",
+    "alpha_tocopherol_content": "≥96%",
+    "heavy_metals": "≤10 ppm"
+  },
+  
+  "formulation_guidelines": {
+    "addition_phase": "Phase B - Oil phase",
+    "incorporation_method": "Dissolve in oil phase at <60°C",
+    "temperature_limit": "Add below 60°C to prevent degradation",
+    "light_protection": "Essential during formulation and storage",
+    "optimal_concentrations": {
+      "anti_aging_serums": "0.5-2.0%",
+      "daily_moisturizers": "0.2-0.5%",
+      "sun_protection": "0.5-1.0%",
+      "intensive_treatments": "1.0-3.0%"
+    },
+    "stability_enhancers": [
+      "BHT (0.01-0.02%)",
+      "Ascorbyl palmitate",
+      "Nitrogen atmosphere packaging"
+    ],
+    "quality_control": [
+      "Peroxide value testing",
+      "Alpha-tocopherol assay",
+      "Color stability",
+      "Oxidation stability testing"
+    ]
+  },
+  
+  "network_analysis": {
+    "node_degree": 35,  // Connected to 35 products
+    "betweenness_centrality": 0.64,  // Important in anti-aging network
+    "clustering_coefficient": 0.31,  // Forms clusters with antioxidants
+    "eigenvector_centrality": 0.58,  // High influence in anti-aging community
+    "community": "Antioxidant/Anti-aging community"
+  },
+  
+  "performance_characteristics": {
+    "antioxidant_potency": "High - 1.49 TEAC units",
+    "skin_penetration": "Good through lipid barriers",
+    "stability_in_formulation": "Moderate - requires protection",
+    "synergy_factors": {
+      "with_vitamin_c": "300% increased stability",
+      "with_ferulic_acid": "200% enhanced efficacy",
+      "with_retinol": "Reduced retinol irritation"
+    }
+  },
+  
+  "clinical_benefits": {
+    "antioxidant_protection": "Neutralizes ROS and prevents lipid peroxidation",
+    "anti_aging": "Reduces appearance of fine lines and wrinkles",
+    "photoprotection": "Prevents UV-induced damage and premature aging",
+    "barrier_function": "Supports skin barrier integrity and repair",
+    "clinical_studies": [
+      "25% reduction in lipid peroxidation markers after 4 weeks",
+      "Improved skin elasticity and firmness after 8 weeks",
+      "Enhanced protection against UV-induced erythema"
+    ]
+  },
+  
+  "environmental_considerations": {
+    "source": "Synthetic or natural (vegetable oil derived)",
+    "biodegradability": "Readily biodegradable",
+    "environmental_fate": "No bioaccumulation concerns",
+    "sustainable_options": "Non-GMO soy or sunflower derived available"
+  },
+  
+  "handling_precautions": {
+    "storage_atmosphere": "Nitrogen or argon recommended",
+    "temperature_control": "Store below 25°C",
+    "light_protection": "Amber containers, avoid UV exposure",
+    "oxidation_prevention": "Minimize air exposure during handling",
+    "equipment_compatibility": "Stainless steel or glass preferred"
+  }
+}

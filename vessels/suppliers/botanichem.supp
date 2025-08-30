@@ -1,0 +1,216 @@
+// Botanichem - Specialized Natural Extract Supplier
+// Supplier ID: BOT0003
+// Primary Specialization: Botanical Extracts and Natural Actives
+{
+  "supplier_id": "BOT0003",
+  "label": "Botanichem",
+  "company_name": "Botanichem Natural Extracts (Pty) Ltd",
+  "company_type": "Private Company",
+  
+  "business_information": {
+    "ingredient_portfolio_size": 2,  // Specialized supplier
+    "market_share": 2.2,  // 2.2% but highly specialized
+    "geographic_focus": ["South Africa", "Southern Africa", "Global export"],
+    "specializations": [
+      "Botanical Extracts",
+      "Natural Actives",
+      "Indigenous Plant Compounds",
+      "Sustainable Sourcing"
+    ],
+    "years_in_business": 12,
+    "annual_revenue_range": "R10-25M"
+  },
+  
+  "contact_information": {
+    "headquarters": "Port Elizabeth, South Africa",
+    "address": "67 Botanical Gardens Road, Summerstrand, 6001",
+    "phone": "+27 41 555 7890",
+    "email": "info@botanichem.co.za", 
+    "website": "www.botanichem.co.za",
+    "primary_contact": "Dr. Susan Makena - Managing Director",
+    "technical_contact": "Prof. Robert Steyn - Head of Research"
+  },
+  
+  "ingredient_portfolio": [
+    "R1905039",  // Specialized Botanical Extract 1
+    "R1905042"   // Specialized Botanical Extract 2
+  ],
+  
+  "specialized_capabilities": {
+    "extraction_methods": [
+      "Supercritical CO2 extraction",
+      "Cold water extraction",
+      "Ethanol extraction",
+      "Steam distillation",
+      "Ultrasonic extraction"
+    ],
+    "standardization": [
+      "Active compound standardization",
+      "Bioassay-guided fractionation",
+      "Marker compound identification",
+      "Batch-to-batch consistency"
+    ],
+    "indigenous_expertise": [
+      "South African indigenous plants",
+      "Traditional medicine knowledge",
+      "Sustainable wild harvesting",
+      "Community partnerships"
+    ]
+  },
+  
+  "commercial_terms": {
+    "payment_terms": "60 days net (research/development customers)",
+    "minimum_order_value": 15000.00,  // ZAR - higher due to specialization
+    "lead_time_standard": 45,  // days - longer for extraction processes
+    "volume_discounts": {
+      "tier_1": "1-5kg: Standard pricing",
+      "tier_2": "5-20kg: 5% discount",
+      "tier_3": "20kg+: 10% discount + custom standardization"
+    },
+    "incoterms": "DAP (Delivered At Place)",
+    "currency": "ZAR with EUR/USD options"
+  },
+  
+  "quality_certifications": [
+    "Organic Certification (IFOAM)",
+    "CITES Permit Holder",
+    "Wild Harvesting Certification",
+    "Good Collection Practice (GCP)",
+    "ISO 9001:2015 Quality Management",
+    "Fair Trade Certified"
+  ],
+  
+  "quality_grade_standards": [
+    "Pharmaceutical Grade Extracts",
+    "Cosmeceutical Grade",
+    "Organic Certified",
+    "Wild-crafted Premium",
+    "Research Grade"
+  ],
+  
+  "research_facilities": {
+    "extraction_laboratory": "500m² state-of-the-art facility",
+    "analytical_capabilities": [
+      "HPLC-MS/MS analysis",
+      "GC-MS identification",
+      "Bioactivity screening",
+      "Standardization protocols",
+      "Stability testing"
+    ],
+    "herbarium": "2000+ species documented",
+    "test_gardens": "50 hectare cultivation facility"
+  },
+  
+  "sustainability_initiatives": {
+    "environmental_certifications": [
+      "Rainforest Alliance Certified",
+      "Organic Certification Body certified",
+      "Carbon Neutral Certified"
+    ],
+    "conservation_programs": [
+      "Species conservation initiatives",
+      "Community-based conservation",
+      "Sustainable harvesting protocols",
+      "Biodiversity monitoring"
+    ],
+    "community_partnerships": [
+      "Traditional healer cooperatives",
+      "Rural community employment",
+      "Knowledge sharing agreements",
+      "Fair trade premium programs"
+    ]
+  },
+  
+  "technical_services": {
+    "formulation_support": true,
+    "custom_extraction": "Available for >25kg orders",
+    "standardization_services": "Custom active compound standardization",
+    "regulatory_documentation": "Complete botanical regulatory dossiers",
+    "efficacy_testing": "In-vitro bioactivity screening",
+    "stability_testing": "Extract stability in various formulations",
+    "technical_training": "Botanical extract usage training"
+  },
+  
+  "logistics_capabilities": {
+    "warehouse_locations": ["Port Elizabeth (main)", "Cape Town (distribution)"],
+    "storage_facilities": "Climate-controlled, organic-certified storage",
+    "packaging_options": [
+      "1kg amber glass containers",
+      "5kg light-protected containers",
+      "25kg specialized extract containers",
+      "Custom packaging for sensitive extracts"
+    ],
+    "shipping_methods": ["Refrigerated transport", "Air freight (expedited)"],
+    "tracking_system": "Chain of custody tracking from harvest to delivery"
+  },
+  
+  "relationship_metrics": {
+    "partnership_level": "Specialized Partner",
+    "contract_length": "5-year sustainable sourcing agreements",
+    "reliability_score": 87,  // Good for specialized supplier
+    "quality_incidents": 0,   // Excellent quality record
+    "delivery_performance": "82% on-time (acceptable for extraction lead times)",
+    "customer_satisfaction": 4.9  // Excellent for specialized service
+  },
+  
+  "innovation_capabilities": {
+    "rd_investment": "22% of annual revenue",
+    "research_areas": [
+      "Novel indigenous plant compounds",
+      "Sustainable extraction optimization",
+      "Bioactivity enhancement methods",
+      "Standardization technology"
+    ],
+    "patent_portfolio": "6 active patents for extraction methods",
+    "research_partnerships": [
+      "University of Cape Town (Pharmacology)",
+      "Nelson Mandela University (Botany)",
+      "Indigenous knowledge holders networks",
+      "International botanical research consortium"
+    ]
+  },
+  
+  "regulatory_expertise": {
+    "botanical_regulations": [
+      "CITES compliance for protected species",
+      "Organic certification maintenance",
+      "Traditional use documentation",
+      "Safety assessment for novel botanicals"
+    ],
+    "documentation_services": [
+      "Botanical identity certificates",
+      "Traditional use evidence",
+      "Safety assessment dossiers",
+      "Regulatory submission support"
+    ]
+  },
+  
+  "competitive_advantages": [
+    "Unique indigenous plant access",
+    "Traditional knowledge integration",
+    "Sustainable sourcing leadership",
+    "Advanced extraction technology",
+    "Comprehensive regulatory support",
+    "Custom standardization capabilities"
+  ],
+  
+  "supply_chain_management": {
+    "source_diversification": "Multiple wild and cultivated sources",
+    "seasonal_planning": "Comprehensive harvest planning",
+    "inventory_strategy": "Strategic stock of processed extracts",
+    "quality_assurance": "Botanical ID verification for every batch",
+    "traceability": "Complete harvest-to-product traceability"
+  },
+  
+  "market_positioning": {
+    "unique_value_proposition": "Premium indigenous botanical extracts",
+    "target_markets": [
+      "High-end cosmeceuticals",
+      "Natural product manufacturers",
+      "Research institutions",
+      "Pharmaceutical companies"
+    ],
+    "growth_strategy": "Expansion into novel indigenous compounds",
+    "differentiation": "Exclusive access to traditional knowledge"
+  }
+}

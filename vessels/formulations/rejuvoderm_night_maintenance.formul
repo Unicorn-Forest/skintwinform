@@ -1,0 +1,132 @@
+// Rejuvoderm Night Maintenance - Advanced Anti-Aging Night Treatment
+// Formulation ID: B19PRODZNERN000
+// Category: Comprehensive Night Repair Complex
+{
+  "formulation_id": "B19PRODZNERN000",
+  "product_name": "Rejuvoderm Night Maintenance",
+  "category": "Night Complex",
+  "vessel_type": "Multi_Active_Night_Reactor",
+  "target_skin_type": ["Aging", "Mature", "Damaged"],
+  "complexity_score": 92,
+  
+  "formulation_phases": {
+    "phase_a_water": {
+      "R010000": 39.725,  // De Ion Water
+      "R0101114": 8.0,    // B.P. Glycerine
+      "R0102031": 0.25,   // Xanthan Gum
+      "temperature": 70,
+      "mixing_time": 30
+    },
+    "phase_b_oil": {
+      "refined_shea_butter": "6.5%",
+      "rosehip_oil": "5.0%",
+      "vitamin_e_acetate": "2.0%",
+      "ceramide_complex": "3.0%",
+      "temperature": 65,
+      "special_instructions": "Maintain temperature for ceramide stability"
+    },
+    "phase_c_retinoid": {
+      "retinyl_palmitate": "1.0%",
+      "retinol_encapsulated": "0.5%",
+      "temperature": 40,
+      "light_protection": true
+    },
+    "phase_d_peptide": {
+      "hexapeptide_9": "2.5%",
+      "copper_peptides": "1.5%",
+      "growth_factor_complex": "2.0%",
+      "temperature": 35
+    },
+    "phase_e_preservation": {
+      "R0104015": 0.9,    // Microcare PHG
+      "tocopherol": "0.2%"
+    }
+  },
+  
+  "manufacturing_sequence": [
+    {
+      "step": 1,
+      "ingredient": "Water-Humectant Base",
+      "quantity": "47.975g",
+      "vessel_contents_before": "Clean night repair reactor",
+      "reaction": "Hydration matrix formation with enhanced penetration",
+      "vessel_contents_after": "Structured aqueous base",
+      "interim_product_name": "Night Hydration Matrix",
+      "observable_changes": "Clear, slightly viscous hydrating base"
+    },
+    {
+      "step": 2,
+      "ingredient": "Lipid Restoration Complex",
+      "quantity": "16.5g",
+      "vessel_contents_before": "Hydration matrix (47.975g)",
+      "reaction": "Emulsification → barrier repair lipid complex formation",
+      "vessel_contents_after": "Rich barrier repair emulsion",
+      "interim_product_name": "Barrier Restoration Cream",
+      "observable_changes": "Rich, luxurious cream with excellent skin-feel"
+    },
+    {
+      "step": 3,
+      "ingredient": "Retinoid Complex",
+      "quantity": "1.5g",
+      "vessel_contents_before": "Barrier cream (64.475g)",
+      "reaction": "Retinoid stabilization → cellular renewal activation",
+      "vessel_contents_after": "Active anti-aging complex",
+      "interim_product_name": "Renewal Activator Cream",
+      "observable_changes": "Slight golden tint, enhanced penetration properties"
+    },
+    {
+      "step": 4,
+      "ingredient": "Peptide Matrix",
+      "quantity": "6.0g",
+      "vessel_contents_before": "Retinoid complex (65.975g)",
+      "reaction": "Peptide integration → comprehensive repair activation",
+      "vessel_contents_after": "Complete night repair treatment",
+      "interim_product_name": "Ultimate Night Maintenance Formula",
+      "observable_changes": "Smooth, advanced texture with multi-active benefits"
+    }
+  ],
+  
+  "benefits": [
+    "Overnight cellular repair and renewal",
+    "Multi-peptide firming technology",
+    "Retinoid-powered anti-aging",
+    "Barrier restoration and strengthening",
+    "Deep hydration and nourishment",
+    "Fine line and wrinkle reduction",
+    "Skin tone and texture improvement"
+  ],
+  
+  "application_instructions": [
+    "Use PM only after cleansing and toning",
+    "Apply 1-2 pumps to face and neck",
+    "Gently massage until absorbed",
+    "Always use SPF during the day",
+    "Start with 3x per week, increase gradually"
+  ],
+  
+  "safety_assessment": {
+    "safety_status": "REQUIRES_TESTING",
+    "patch_test": "Mandatory for retinoid-containing formula",
+    "restrictions": ["Evening use only", "Gradual introduction", "SPF mandatory"],
+    "contraindications": ["Pregnancy", "Nursing", "Retinoid sensitivity"],
+    "ph_target": 5.2,
+    "shelf_life": "15 months"
+  },
+  
+  "expected_results": {
+    "2_weeks": "Improved skin texture and hydration",
+    "4_weeks": "Visible fine line reduction",
+    "8_weeks": "Significant firming and renewal",
+    "12_weeks": "Comprehensive anti-aging benefits",
+    "clinical_studies": "78% showed visible improvement in fine lines after 8 weeks"
+  },
+  
+  "ingredient_count": 24,
+  "total_concentration": 100.0,
+  "stability_testing": {
+    "temperature_range": "2°C to 25°C storage required",
+    "light_sensitivity": "High - opaque packaging required",
+    "retinoid_stability": "Stable for 15 months with proper storage",
+    "peptide_integrity": "Maintained throughout shelf life"
+  }
+}
